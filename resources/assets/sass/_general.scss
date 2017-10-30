@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+.standardButton {
+	padding: 12px 30px;
+	background-color: #05B2E4;
+	color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: 0px 2px 12px rgba(39, 21, 102, 0.3);
+  }
+}
+h1 {
+  font-family: 'PT Serif', serif;
+}
+h2, .impressum__headline {
+  font-size: 45px;
+  font-family: 'PT Serif', serif;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 0;
+  @media screen and (max-width: 800px) and (min-width: 550px) {
+    font-size: 38px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 36px;
+  }
+}
+h3, .prozessText {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  @media screen and (max-width: 800px) and (min-width: 550px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+h3 {
+  font-family: 'PT Serif', sans-serif;
+  color: #333;
+}
+p {
+  color: #666666;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.8;
+  @media screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
