@@ -5,8 +5,6 @@
 
 <body>
 
-@include('/includes/navigationTop')
-
 <div class="content__wrapper">
 
 	@yield('content')

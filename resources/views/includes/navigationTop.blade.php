@@ -6,16 +6,16 @@
 			</a>
 		</div>
 		<div class="navigationItem sliding-middle-out">
-			<a href="">PROZESS</a>
+			<a href="/prozess">PROZESS</a>
 		</div>
 		<div class="navigationItem sliding-middle-out">
-			<a href="">KONTAKT</a>
+			<a href="/kontakt">KONTAKT</a>
 		</div>
 		<div class="navigationItem sliding-middle-out">
-			<a href="">LEISTUNGEN</a>
+			<a href="/leistungen">LEISTUNGEN</a>
 		</div>
 		<div class="navigationItem sliding-middle-out">
-			<a href="">FAQ</a>
+			<a href="/faq">FAQ</a>
 		</div>
 	</div>
 </div>

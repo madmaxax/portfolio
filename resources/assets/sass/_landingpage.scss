@@ -1,0 +1,340 @@
+.content__wrapper {
+	width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+.standardButton {
+	padding: 12px 30px;
+	background-color: #05B2E4;
+	color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: 0px 2px 12px rgba(39, 21, 102, 0.3);
+  }
+}
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 38px;
+  @media screen and (min-width: 1400px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+  }
+}
+h2, .impressum__headline {
+  font-size: 45px;
+  font-family: 'PT Serif', serif;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 0;
+  @media screen and (max-width: 800px) and (min-width: 550px) {
+    font-size: 38px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 36px;
+  }
+}
+h3, .prozessText {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  @media screen and (max-width: 800px) and (min-width: 550px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+h3 {
+  font-family: 'PT Serif', sans-serif;
+  color: #333;
+}
+p {
+  color: #666666;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.8;
+  @media screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  @media screen and (max-width: 390px) {
+    font-size: 13px;
+  }
+}
+.boldParagraph {
+  font-weight: 500;
+  color: #e69f3b;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex--new {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.roundBox {
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 7% auto;
+}
+.box, .box--pic, .box-aa, .box--extended {
+  @media screen and (min-width: 1000px) {
+    position: relative;
+    height: 50%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+.box {
+  @media screen and (min-width: 1000px) {
+    width: 60%;
+  }
+}
+.box--pic { 
+  @media screen and (min-width: 1000px) {
+    width: 40%;
+  }
+}
+.box--extended {
+  width: 50%;
+  @media screen and (max-width: 800px) {
+    padding: 3rem 0;
+  }
+}
+.boxShadow {
+  @media screen and (min-width: 1000px) {
+    box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  }
+}
+.width--50 {
+  width: 50%;
+}
+.width--40 {
+  width: 40%;
+  @media screen and (max-width: 1200px) and (min-width: 1000px) {
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}
+.width--50, .width--40 {
+  margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+}
+.row, .row--einleitung {
+  display: table;
+  width: 69%;
+  margin: 0px auto;
+}
+.row {
+  margin-top: 90px;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+  }
+}
+.displayNone {
+  display: block !important;
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+.display {
+  display: none !important;
+  @media screen and (max-width: 768px) {
+    display: block !important;
+  }
+}
+.textCenter {
+  text-align: center;
+}
+.textLeft {
+  text-align: left;
+}
+.textRight {
+  text-align: right;
+  width: 20% !important;
+}
+.marginTop {
+  margin-top: 90px;
+}
+.marginTopZero {
+  margin-top: 2% !important;
+}
+.marginLeft {
+  margin-left: 150px;
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+  }
+}
+.marginRight {
+  @media screen and (min-width: 1000px) {
+    margin-right: 10%;
+  }
+}
+.marginZero {
+  margin: 0 !important;
+}
+.paddingTop {
+  padding-top: 30px;
+  @media screen and (max-width: 550px) {
+    padding-top: 0px;
+  }
+}
+.paddingRight {
+  @media screen and (min-width: 1000px) {
+    padding-right: 10%;
+  }
+}
+.paddingLeft {
+  @media screen and (min-width: 1000px) {
+    padding-left: 10%;
+  }
+}
+.color {
+  color: #333 !important;
+}
+.spacing {
+  margin-top: 6.5rem;
+}
+.slide-enter {}
+.slide-enter-active {
+  animation: slide-in .5s ease-out forwards;
+  transition: opacity .5s;
+}
+@keyframes slide-in {
+  from {
+    transform: translateY(-20px);
+    height: 0;
+  }
+  to {
+    height: 100%;
+    transform: translateY(0px);
+  }
+}
+.homeNavigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 60px;
+  width: 100%;
+}
+.othersNavigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 3px 1px -2px rgba(51,51,51,0.08);;
+}
+.navigationMenu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 1000px;
+}
+.navigationItems, .navigationItems--blog {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 60px;
+  a:hover {
+    opacity: 0.65;
+  }
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+.card {
+  position: relative;
+  width: 23rem;
+  height: 25rem;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 1.5rem 3rem; 
+  margin-right: 1.5rem;
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  box-sizing: border-box;
+  p {
+    white-space: normal;
+  }
+  @media screen and (max-width: 375px) {
+    width: auto;
+  }
+}
+.prozess {
+  background-color:  #f5f5f5;
+}
+.blog, .portfolio, .leistungen {
+  background-color: #fff;
+  h3 {
+    margin-top: 20px;
+  }
+}
+.display {
+  color: #D3D3D3;
+}
+.topCard {
+	position: relative;
+	width: 100%;
+	height: 88vh;
+	background-color: black;
+}
+.topCard__picture {
+	width: 100%;
+	height: auto;
+	min-height: 88vh;
+}
+.topCard__headline {
+	position: absolute;
+	bottom: 12%;
+	left: 5%;
+	z-index: 0;
+	color: white;
+	@media screen and (min-width: 1200px) {
+		left: 10%;
+	}
+	@media screen and (max-width: 1000px) and (min-width: 750px) {
+		top: 70%;
+	}
+	@media screen and (max-width: 750px) {
+		top: 61%;
+	}
+}
+.standardCard {
+	position: relative;
+	width: 100%;
+	padding: 100px 0px;
+}

@@ -1,0 +1,50 @@
+.blog {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog__textContainer {
+	margin: 0 1rem;
+    @media screen and (max-width: 550px) {
+    	margin: 0;
+    }
+}
+.blog__picture {
+	width: 100%;
+	height: auto;
+	max-height: 13rem;
+	border-radius: 10px 10px 0 0;
+}
+.makeAuto {
+	margin: 0 1.5%;
+	margin-top: 32px;
+	padding: 0;
+	width: 27rem;
+    height: 26.7rem;
+    text-align: left;
+    @media screen and (min-width: 1600px) {
+        width: 30rem;
+    }
+    @media screen and (max-width: 550px) and (min-width: 376px) {
+    	height: 29rem;
+    	width: calc(100% - 4rem);
+    	margin: 10px 2rem;
+    }
+    @media screen and (max-width: 375px) {
+        height: 29rem;
+        width: calc(100% - 1rem);
+        margin: 10px 0.5rem;
+    }
+}
+.fontSize--26 {
+	font-size: 25px;
+	font-weight: 600;
+}
+.fontSize--15 {
+	font-size: 15px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.marginLeft--special {
+	margin: 0 1.5rem;
+}
