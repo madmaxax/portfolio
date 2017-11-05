@@ -5,6 +5,8 @@
 
 <body>
 
+@include('/includes/navigationTop', ['NavWhite' => false])
+
 <div class="content__wrapper">
 
 	@yield('content')

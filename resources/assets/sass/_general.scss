@@ -20,11 +20,18 @@ body {
 }
 h1 {
   font-family: 'PT Serif', serif;
+  font-size: 38px;
+  @media screen and (min-width: 1400px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+  }
 }
 h2, .impressum__headline {
   font-size: 45px;
   font-family: 'PT Serif', serif;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   margin-bottom: 40px;
   margin-top: 0;
