@@ -1,7 +1,7 @@
 <div class="standardCard blog textCenter">
 	<h2>Mein Blog</h2>
 	<div class="card makeAuto">
-		<a href="">	
+		<a href="/blog/kreativ/">	
 		    <img class="blog__picture" src="/img/kreativ.jpeg">
 		    <div class="blog__textContainer">
 		        <h3 class="fontSize--26 marginLeft--special">7 Gründe warum du deine Internetseite falsch nutzt.</h3>
@@ -11,7 +11,7 @@
 		</a>
 	</div>
 	<div class="card makeAuto">
-		<a href="">	
+		<a href="/blog/ideen/">	
 		    <img class="blog__picture" src="/img/ideen.jpeg">
 		    <div class="blog__textContainer">
 		        <h3 class="fontSize--26 marginLeft--special">So erstellst du eine erfolgreiche Online Präsenz.</h3>
@@ -21,7 +21,7 @@
 		</a>
 	</div>
 	<div class="card makeAuto">
-		<a href="">	
+		<a href="/blog/webdesign-fehler/">	
 		    <img class="blog__picture" src="/img/webdesign_fehler.jpeg">
 		    <div class="blog__textContainer">
 		        <h3 class="fontSize--26 marginLeft--special">Diese 8 Webdesign Fehler solltest du vermeiden.</h3>
@@ -31,7 +31,7 @@
 		</a>
 	</div>
 	<div class="card makeAuto">
-		<a href="">	
+		<a href="/blog/konkurrenz/">	
 		    <img class="blog__picture" src="/img/konkurrenz.jpeg">
 		    <div class="blog__textContainer">
 		        <h3 class="fontSize--26 marginLeft--special">3 Möglichkeiten dich von der Konkurrenz abzusetzen.</h3>

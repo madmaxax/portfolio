@@ -7,16 +7,16 @@
 				</a>
 			</div>
 			<div class="navigationItem sliding-middle-out displayNone">
-				<a href="/prozess">VORGEHEN</a>
+				<a href="/prozess/">VORGEHEN</a>
 			</div>
 			<div class="navigationItem sliding-middle-out displayNone">
-				<a href="/leistungen">LEISTUNGEN</a>
+				<a href="/leistungen/">LEISTUNGEN</a>
 			</div>
 			<div class="navigationItem sliding-middle-out displayNone">
-				<a href="/blog">BLOG</a>
+				<a href="/blog/">BLOG</a>
 			</div>
 			<div class="navigationItem sliding-middle-out displayNone">
-				<a href="/kontakt">KONTAKT</a>
+				<a href="/kontakt/">KONTAKT</a>
 			</div>
 			<div class="navigationItem sliding-middle-out display">
 				<a id="menu" href="#">&#9776; MENU</a>
@@ -32,16 +32,16 @@
 				</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/prozess">VORGEHEN</a>
+				<a href="/prozess/">VORGEHEN</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/leistungen">LEISTUNGEN</a>
+				<a href="/leistungen/">LEISTUNGEN</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/blog">BLOG</a>
+				<a href="/blog/">BLOG</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/kontakt">KONTAKT</a>
+				<a href="/kontakt/">KONTAKT</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out display">
 				<a id="menu--white" href="#">&#9776; MENU</a>
@@ -53,10 +53,10 @@
 		<div class="flex height100">
 			<ul>
 				<li id="x" class="listItem">&#10005;</li>
-				<li class="listItem"><a href="/prozess">VORGEHEN</a></li>
-				<li class="listItem"><a href="/leistungen">LEISTUNGEN</a></li>
-				<li class="listItem"><a href="/blog">BLOG</a></li>
-				<li class="listItem"><a href="/kontakt">KONTAKT</a></li>
+				<li class="listItem"><a href="/prozess/">VORGEHEN</a></li>
+				<li class="listItem"><a href="/leistungen/">LEISTUNGEN</a></li>
+				<li class="listItem"><a href="/blog/">BLOG</a></li>
+				<li class="listItem"><a href="/kontakt/">KONTAKT</a></li>
 			</ul>
 		</div>
 	</div>
