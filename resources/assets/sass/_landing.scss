@@ -202,7 +202,7 @@ body {
     white-space: normal;
   }
   @media screen and (max-width: 375px) {
-    width: auto;
+    width: 100%;
   }
 }
 .prozess {
@@ -210,6 +210,9 @@ body {
 }
 .blog, .portfolio, .leistungen {
   background-color: #fff;
+  @media screen and (max-width: 375px) {
+    width: 90% !important;
+  }
   h3 {
     margin-top: 20px;
   }

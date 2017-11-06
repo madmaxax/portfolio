@@ -32,8 +32,9 @@
     }
     @media screen and (max-width: 375px) {
         height: 29rem;
-        width: calc(100% - 1rem);
-        margin: 10px 0.5rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .fontSize--26 {
