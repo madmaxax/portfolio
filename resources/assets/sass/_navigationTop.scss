@@ -10,10 +10,13 @@
   z-index: 1000;
 }
 .navigationMenu {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  max-width: 1000px;
+  display: none;
+  @media screen and (min-width: 800px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 1000px;
+  }
 }
 .navigationItem, .navigationItem--whiteColor {
   flex-grow: 1;
