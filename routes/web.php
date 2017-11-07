@@ -14,4 +14,5 @@ Route::get('/', 'Controller@landing');
 Route::get('/kontakt/', 'Controller@kontakt');
 Route::get('/blog/', 'Controller@blogOverview');
 Route::get('/blog/{blogURL}/', 'Controller@viewBlogPost');
+Route::get('/sitemap/', 'Controller@sitemap');
 Route::post('/sendmail/', 'Controller@sendMail')->name('sendmail');

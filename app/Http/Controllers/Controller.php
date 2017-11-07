@@ -29,6 +29,9 @@ class Controller extends BaseController
 	    	return view('extends.404');
 	    }
 	}
+	public function sitemap() {
+		return view('extends.sitemap');
+	}
 	public function kontakt() 
 	{
     	return view('extends.contactForm');
