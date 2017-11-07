@@ -1,25 +1,19 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
-@import "variables";
+@import "./General/variables";
 
 //General
-@import "general";
-@import "helpers";
-
-//Reusable Code
-@import "navigationTop";
-@import "contactForm";
-@import "footer";
+@import "./General/generalStyling";
+@import "./General/helpers";
+@import "./General/navigationTop";
+@import "./General/contactForm";
+@import "./General/footer";
 
 //Landingpage Specific
-@import "landing";
-@import "./Landing/einleitung";
-@import "./Landing/erfolg";
-@import "./Landing/responsiveDesign";
-@import "./Landing/ad";
-@import "./Landing/blog";
-@import "./Landing/überMich";
+@import "./Landing/landing";
+@import "./Landing/components/einleitung";
+@import "./Landing/components/erfolg";
+@import "./Landing/components/responsiveDesign";
+@import "./Landing/components/ad";
+@import "./Blog/components/blog";
+@import "./Landing/components/überMich";
 

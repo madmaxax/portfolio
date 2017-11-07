@@ -8,7 +8,7 @@
 	<meta name="google-site-verification" content="google7539006ff2b10411.html" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" href="{{ asset('img/Mm.png') }}">
-	<link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+	<link rel="stylesheet" href="{{ mix('css/' . $css) }}" />
 	<!-- Get google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
 	<!-- Google specific tags -->

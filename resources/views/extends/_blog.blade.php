@@ -1,6 +1,6 @@
 <div class="standardCard blog textCenter">
 	<h2>Mein Blog</h2>
-	<div class="card makeAuto">
+	<div class="blog__card makeAuto">
 		<a href="/blog/kreativ/">	
 		    <img class="blog__picture" src="/img/kreativ.jpeg">
 		    <div class="blog__textContainer">
@@ -10,7 +10,7 @@
 		    </div>
 		</a>
 	</div>
-	<div class="card makeAuto">
+	<div class="blog__card makeAuto">
 		<a href="/blog/ideen/">	
 		    <img class="blog__picture" src="/img/ideen.jpeg">
 		    <div class="blog__textContainer">
@@ -20,7 +20,7 @@
 		    </div>
 		</a>
 	</div>
-	<div class="card makeAuto">
+	<div class="blog__card makeAuto">
 		<a href="/blog/webdesign-fehler/">	
 		    <img class="blog__picture" src="/img/webdesign_fehler.jpeg">
 		    <div class="blog__textContainer">
@@ -30,7 +30,7 @@
 		    </div>
 		</a>
 	</div>
-	<div class="card makeAuto">
+	<div class="blog__card makeAuto">
 		<a href="/blog/konkurrenz/">	
 		    <img class="blog__picture" src="/img/konkurrenz.jpeg">
 		    <div class="blog__textContainer">

@@ -2,14 +2,14 @@
 
 @section('title')
 
-	<title>Maximilian Muza | Internetseiten erstellen</title>
+	<title>Blog | Maximilian Muza</title>
 
 @stop
 
 @section('metaTag')
 
-	<meta name="description" content="Alles Notwendige über Websites und die Möglichkeit deinen Umsatz zu steigern. So begeisterst du deine Kunden..">
-    <meta name="keywords" content="Internetseiten, Website erstellen, Homepage erstellen, Umsatz, Besucher zu Kunden, Blog" />
+	<meta name="description" content="Dein Interesse für eine Website ist geweckt, du weißt aber noch nicht wie du sie am erfolgreichsten nutzt? Erfahre mehr von meinen Erfolgsgeheimnissen in meinem Blog..">
+    <meta name="keywords" content="Erfolg mit Internetseite, Website erstellen, Homepage erstellen, Blog, Umsatz erhöhen, mehr Kunden, regionales Unternehmen" />
 
 @stop
 

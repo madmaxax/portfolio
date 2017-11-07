@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 
-@include('/includes/header')
+@include('/includes/header', ['css' => 'app-blog.css'])
 
 <body>
 

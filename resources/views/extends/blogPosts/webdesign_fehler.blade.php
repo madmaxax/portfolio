@@ -2,7 +2,7 @@
 
 @section('title')
 
-	<title>Webdesign Fehler Blog Post | Maximilian Muza</title>
+	<title>Webdesign Fehler | Maximilian Muza</title>
 
 @stop
 
@@ -16,7 +16,7 @@
 @section('content')
 
 	<div class="spacing"></div>
-    <h1 class="blogPost__headline">Webdesign Fehler Blog Post</h1>
-    <p class="blogPost__description">Webdesign Fehler Blog Post Test Blog Post</p>
+    <h1 class="blogPost__headline">Webdesign Fehler</h1>
+    <p class="blogPost__description">Webdesign Fehler</p>
 
 @stop

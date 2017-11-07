@@ -17,7 +17,8 @@
 
     	<div class="backgroundContent">
 		    <div class="topCard">
-		    	<img class="topCard__picture" src="/img/internetseite.jpg">
+		    	<img class="topCard__picture displayNone" src="/img/internetseite.jpg">
+		    	<img class="topCard__picture display" src="/img/responsive_design.png">
 		    </div>
 		    <div class="underlay">
 				<div class="introduction flex--new">
@@ -111,7 +112,7 @@
 		        </div>
 		    </div>
 			@include('extends._blog')
-			<div class="dasBinIch__wrapper flex">
+			<div class="dasBinIch__wrapper flex displayNone">
 			  	<div class="dasBinIch__container">
 					<div class="box--pic dasBinIch__boxChange">
 						<img class="dasBinIch__img" src="/img/portrait.jpg">
