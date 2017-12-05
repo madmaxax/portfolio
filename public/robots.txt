@@ -1,4 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /klassenraum/webdesign-fehler/
+Disallow: /klassenraum/kreativ/
+Disallow: /online-präsenz/
+Disallow: /online-präsenz/test/
 
-Sitemap: /sitemap
+Allow: /
+
+Sitemap: http://maximilianmuza.de/sitemap.xml

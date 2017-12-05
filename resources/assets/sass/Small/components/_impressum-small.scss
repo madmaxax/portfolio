@@ -1,0 +1,19 @@
+.blogLink {
+  color: #34c5ed;
+  text-decoration: underline;
+}
+.signature {
+  margin-left: 40px;
+  p {
+    font-family: PT Serif, serif;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0 0 50px 0;
+    color: #333;
+  }
+}
+.about__introduction {
+  width: 100%;
+  min-height: 100vh;
+}

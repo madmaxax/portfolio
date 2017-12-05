@@ -1,0 +1,145 @@
+ul {
+  -webkit-padding-start: 24px;
+}
+.boxShadow {
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+  box-sizing: border-box; 
+}
+@media screen and (max-width: 768px) {
+  .displayNone {
+    display: none !important; 
+  } 
+}
+.display {
+  display: none !important; 
+}
+@media screen and (max-width: 768px) {
+  .display {
+    display: block !important; 
+  } 
+}
+.center {
+  margin: 0 auto;
+}
+.row {
+  position: relative;
+  width: 60%;
+  min-width: 800px;
+  max-width: 1100px;
+  margin: -300px auto 0 auto; 
+  padding: 70px 120px 50px 120px;
+  background-color: #fff;
+  border-radius: 12px;
+  border-top: 5px solid #34c5ed;
+  @media screen and (max-width: 768px) {
+    margin-top: -15px; 
+    padding: 60px;
+    width: 100%;
+    min-width: auto;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 60px 20px 40px 20px;
+  }
+}
+.standardButton, .standardButton--noeffect {
+  padding: 14px 30px;
+  background-color: #05b2e4;
+  border-radius: 5px; 
+  color: #fff;
+  span {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+}
+.standardButton:hover {
+  box-shadow: 0 2px 12px rgba(39, 21, 102, 0.3);
+  i {
+    margin-left: 5px;
+    margin-right: -10px;
+    transition: all .7s ease-in-out;
+  }
+}
+.impressum__contentContainer {
+  background-color: #f8f8f8;
+  padding-bottom: 100px;
+}
+.boldParagraph {
+  font-weight: 500;
+  color: #e69f3b; 
+}
+.boldHeadline {
+  font-weight: 1000;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+span {
+  color: #333;
+  font-weight: 800;
+}
+.highlight {
+  margin: 40px 0;
+  padding: 20px 60px;
+  border-radius: 10px;
+  border-left: 4px solid #e69f3b;
+  border-right: 4px solid #e69f3b;
+  background-color: #fff;
+  @media screen and (max-width: 768px) {
+    padding: 20px 30px;
+  }
+}
+.colorWhite {
+  background-color: #fff;
+  color: #fff; 
+}
+.blue {
+  background-color: #34c5ed;
+}
+.flex {
+  display: flex !important;
+  justify-content: center;
+  align-items: center; 
+}
+.spacing {
+  margin-top: 6.5rem; 
+}
+.topMargin {
+  margin-top: 20px;
+}
+.underline {
+  text-decoration: underline;
+}
+.borderLeft--orange {
+  border-left: 4px solid #e69f3b !important;
+}
+.halfBorder {
+  height: 4px;
+  width: 100px;
+  background-color: #e69f3b;
+}
+.width--40 {
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.width--50 {
+  width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.width--100 {
+  width: 100%;
+}
+.quellen p, a {
+  font-size: 13px;
+}
+.iconRight {
+  float: right;
+}
+.textCenter {
+  text-align: center;
+}

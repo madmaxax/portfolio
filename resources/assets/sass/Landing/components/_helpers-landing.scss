@@ -1,0 +1,191 @@
+.flex {
+  display: flex !important;
+  justify-content: center;
+  align-items: center; 
+}
+.roundBox {
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 7% auto; 
+}
+@media screen and (min-width: 1000px) {
+  .boxShadow--light {
+    -webkit-box-shadow: 0 3px 1px -2px rgba(51, 51, 51, 0.08);
+    box-shadow: 0 3px 1px -2px rgba(51, 51, 51, 0.08); 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .boxShadow {
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2); 
+  } 
+}
+.boldParagraph {
+  font-weight: 500;
+  color: #e69f3b; 
+}
+.height100 {
+  height: 100vh; 
+}
+.textCenter {
+  text-align: center; 
+}
+.textLeft {
+  text-align: left; 
+}.textRight {
+  text-align: right;
+  width: 20% !important; 
+}
+.marginTopZero {
+  margin-top: 2% !important; 
+}
+.marginLeft {
+  margin-left: 150px; 
+}
+@media screen and (max-width: 768px) {
+  .marginLeft {
+    margin-left: 0; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .marginRight {
+    margin-right: 10%; 
+  } 
+}
+.marginZero {
+  margin: 0 !important; 
+}
+.paddingTop {
+  padding-top: 30px; 
+}
+@media screen and (max-width: 550px) {
+  .paddingTop {
+    padding-top: 0; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .paddingRight {
+    padding-right: 10%; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .paddingLeft {
+    padding-left: 10%; 
+  } 
+}
+@media screen and (max-width: 768px) {
+  .mobilePadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .displayNone {
+    display: none !important; 
+  } 
+}
+.display {
+  display: none !important; 
+}
+.width--50 {
+  width: 50%; 
+}
+.width--40 {
+  width: 40%; 
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .width--40 h2 {
+    margin-bottom: 0; 
+  } 
+}
+.width--40, .width--50 {
+  margin: 0 auto; 
+}
+@media screen and (max-width: 768px) {
+  .width--40, .width--50 {
+    width: 80%; 
+  } 
+}
+@media screen and (max-width: 768px) {
+  .display {
+    display: block !important; 
+  } 
+}
+.colorWhite {
+  background-color: #fff;
+  color: #fff; 
+}
+.color {
+  color: #333 !important; 
+}
+.display {
+  color: #d3d3d3; 
+}
+.fontSize--26 {
+  font-size: 25px;
+  font-weight: 600; 
+}
+.fontSize--15 {
+  font-size: 15px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; 
+}
+.marginLeft--special {
+  margin: 0 1.5rem; 
+}
+@media screen and (min-width: 768px) {
+  .flex--new {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .box, .box--extended, .box--pic, .box-aa {
+    position: relative;
+    height: 50%;
+    display: table-cell;
+    vertical-align: middle; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .box {
+    width: 60%; 
+  } 
+}
+@media screen and (min-width: 1000px) {
+  .box--pic {
+    width: 40%; 
+  } 
+}
+.box--extended {
+  width: 50%; 
+}
+@media screen and (max-width: 800px) {
+  .box--extended {
+    padding: 3rem 0; 
+  } 
+}
+.row, .row--einleitung {
+  display: table;
+  width: 65%;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+.row {
+  margin-top: 90px; 
+}
+@media screen and (max-width: 768px) {
+  .row {
+    margin-top: 0;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
+}

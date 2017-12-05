@@ -5,7 +5,7 @@
 
 <body>
 
-@include('/includes/navigationTop', ['NavWhite' => true])
+@include('/includes/navigationTop', ['NavWhite' => $nav])
 
 <div class="content__wrapper">
 
@@ -15,7 +15,7 @@
 
 @include('/includes/footer')
 
-<script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ mix('js/app-modul.js') }}"></script>
 
 </body>
 </html>

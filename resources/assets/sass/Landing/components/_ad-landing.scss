@@ -1,0 +1,39 @@
+.ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url("/img/natur_website.jpg");
+  background-size: cover; 
+  h2 {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7; 
+  }
+  p {
+    margin: 0 auto 30px;
+    color: #fff; 
+  }
+}
+@media screen and (max-width: 550px) {
+  .ad h2 {
+    line-height: 1.4; 
+    margin-bottom: 20px;
+  } 
+}
+@media screen and (max-width: 550px) {
+  .ad {
+    height: 650px; 
+  } 
+}
+.ad__contentContainer {
+  width: 80%;
+  max-width: 900px;
+  margin-bottom: 20px; 
+}

@@ -1,4 +1,4 @@
-@extends('front-blog')
+@extends('front-small')
 
 @section('title')
 
@@ -10,6 +10,16 @@
 
 	<meta name="description" content="Fragst du dich wie du deine Website besser nutzen kannst? Wie du mit ihr mehr Erfolg haben kannst? Dann zögere nicht mich zu kontaktieren!">
     <meta name="keywords" content="Fragen, Kontakt, Wie gewinne, Internetseiten, Website erstellen, Homepage erstellen" />
+
+@stop
+
+@section('setHeader')
+
+	@php 
+
+		$NavWhite = true
+
+	@endphp
 
 @stop
 

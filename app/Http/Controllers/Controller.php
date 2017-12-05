@@ -15,26 +15,41 @@ class Controller extends BaseController
     {
     	return view('extends.landing');
 	}
-	public function blogOverview() 
-	{
-    	return view('extends.blog');
+	public function überMich() 
+    {
+    	return view('extends.überMich');
 	}
-	public function viewBlogPost($url) 
-	{
-		$myBlogPost = ['webdesign_fehler', 'kreativ', 'konkurrenz', 'ideen'];
-		if(in_array($url, $myBlogPost)) {
-			$file = 'extends.blogPosts.' . $url;
-	        return view($file);
-	    } else {
-	    	return view('extends.404');
-	    }
+	public function leistungen() 
+    {
+    	return view('extends.leistungen');
 	}
-	public function sitemap() {
-		return view('extends.sitemap');
+	public function impressum() 
+    {
+    	return view('extends.impressum');
 	}
 	public function kontakt() 
 	{
     	return view('extends.contactForm');
+	}
+	public function blogOverview() 
+	{
+    	return view('extends.klassenraum');
+	}
+	public function konkurrenz() 
+    {
+    	return view('extends.Klassenraum.konkurrenz');
+	}
+	public function onlinePräsenz() 
+    {
+    	return view('extends.Klassenraum.online-präsenz');
+	}
+	public function potentialInternetseite() 
+    {
+    	return view('extends.Klassenraum.Online-Präsenz.potential-internetseite');
+	}
+	public function sozialeMedien() 
+    {
+    	return view('extends.Klassenraum.Online-Präsenz.soziale-medien');
 	}
 	public function sendMail(\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer) 
 	{

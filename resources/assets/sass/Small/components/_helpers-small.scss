@@ -1,0 +1,127 @@
+.fontSize--26 {
+  font-size: 25px;
+  font-weight: 600; 
+}
+.fontSize--15 {
+  font-size: 15px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; 
+}
+.marginLeft--special {
+  margin: 0 1.5rem; 
+}
+.textCenter {
+  text-align: center; 
+}
+.colorWhite {
+  background-color: #fff;
+  color: #fff; 
+}
+.flex {
+  display: flex !important;
+  justify-content: center;
+  align-items: center; 
+}
+.marginTop {
+  margin-top: 90px; 
+}
+@media screen and (min-width: 1000px) {
+  .boxShadow--light {
+    box-shadow: 0 3px 1px -2px rgba(51, 51, 51, 0.08); 
+  } 
+}
+.boxShadow {
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+  box-sizing: border-box; 
+}
+@media screen and (max-width: 768px) {
+  .displayNone {
+    display: none !important; 
+  } 
+}
+.display {
+  display: none !important; 
+}
+
+@media screen and (max-width: 768px) {
+  .display {
+    display: block !important; 
+  } 
+}
+@media screen and (max-width: 1024px) {
+  .displayNone--blog {
+    display: none !important; 
+  } 
+}
+.center {
+  margin: 0 auto !important;
+}
+.spacing {
+  margin-top: 6.5rem; 
+}
+.width--40 {
+  width: 40%; 
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.boldParagraph {
+  font-weight: 500;
+  color: #e69f3b; 
+}
+.boldHeadline {
+  font-weight: 1000;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.colorRed {
+  color: #c40233 !important;
+  margin: 50px 0 10px 0 !important;
+}
+.highlight {
+  margin: 40px 0;
+  padding: 20px 60px;
+  border-radius: 10px;
+  border-left: 4px solid #e69f3b;
+  border-right: 4px solid #e69f3b;
+  background-color: #fff;
+  @media screen and (max-width: 768px) {
+    padding: 20px 30px;
+  }
+}
+span {
+  color: #333;
+  font-weight: 800;
+}
+i {
+  font-style: normal;
+  margin-left: 10px;
+}
+.standardButton {
+  padding: 12px 30px;
+  background-color: #05b2e4;
+  border-radius: 5px; 
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .mobilePadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.row--specific {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.red {
+  background-color: #c40233;
+}
+.orange {
+  background-color: #e69f3b;
+}
+.blue {
+  background-color: #34c5ed;
+}

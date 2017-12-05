@@ -1,0 +1,84 @@
+.blog__description {
+  color: #666;
+  font-size: 25px;
+  width: 55%;
+  margin: 0 auto;
+  @media screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+.blog {
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+@media screen and (max-width: 375px) {
+  .blog {
+    width: 90% !important; 
+  } 
+}
+.blog__card {
+  position: relative;
+  width: 23rem;
+  height: 25rem;
+  display: inline-block;
+  background-bo: #fff;
+  border-radius: 10px;
+  padding: 0 1.5rem 3rem;
+  margin-right: 1.5rem;
+  -webkit-box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+.blog__card p {
+  white-space: normal; 
+}
+@media screen and (max-width: 375px) {
+  .blog__card {
+    width: 100%; 
+  } 
+}
+.blog__textContainer {
+  margin: 1rem; 
+}
+@media screen and (max-width: 550px) {
+  .blog__textContainer {
+    margin: 20px 0 0 0; 
+  } 
+}
+.blog__picture {
+  width: 100%;
+  height: auto;
+  max-height: 13rem;
+  border-radius: 10px 10px 0 0; 
+}
+.makeAuto {
+  margin: 0 1.5%;
+  margin-top: 32px;
+  padding: 0;
+  width: 27rem;
+  height: 26.7rem;
+  text-align: left; 
+}
+@media screen and (min-width: 1600px) {
+  .makeAuto {
+    width: 30rem; 
+  } 
+}
+@media screen and (max-width: 550px) and (min-width: 376px) {
+  .makeAuto {
+    height: 29rem;
+    width: calc(100% - 4rem);
+    margin: 10px 2rem; 
+  } 
+}
+@media screen and (max-width: 375px) {
+  .makeAuto {
+    height: 29rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; 
+  } 
+}

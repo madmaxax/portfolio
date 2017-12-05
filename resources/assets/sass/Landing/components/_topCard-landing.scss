@@ -1,0 +1,116 @@
+.topCard {
+  position: relative;
+  width: 100%;
+  height: 88vh;
+  background-color: #000; 
+}
+.topCard__picture {
+  width: 100%;
+  height: auto;
+  min-height: 88vh; 
+}
+.topCard__headline {
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  z-index: 0;
+  color: #fff; 
+}
+@media screen and (min-width: 1200px) {
+  .topCard__headline {
+    left: 10%; 
+  } 
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .topCard__headline {
+    top: 70%; 
+  } 
+}
+@media screen and (max-width: 768px) {
+  .topCard__headline {
+    top: 61%; 
+  } 
+}
+.standardCard {
+  position: relative;
+  width: 100%;
+  padding: 100px 0; 
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+}
+.extraInformation {
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+  left: 0;
+  text-align: center; 
+}
+.underlay {
+  background-color: #f1f1f1;
+  position: relative;
+  min-height: 660px; 
+}
+@media screen and (min-width: 390px) and (max-width: 768px) {
+  .underlay {
+    min-height: 580px; 
+  } 
+}
+@media screen and (max-width: 390px) {
+  .underlay {
+    min-height: 1650px; 
+  } 
+}
+.introduction {
+  position: absolute;
+  top: -13vh;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+  width: 90%; 
+}
+@media screen and (min-width: 1200px) {
+  .introduction {
+    width: 80%; 
+  } 
+}
+.introduction__roundBox {
+  width: 31%;
+  max-height: 535px;
+  padding: 70px 40px;
+  margin: 0 !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center; 
+}
+@media screen and (min-width: 1000px) {
+  .introduction__roundBox {
+    min-height: 500px; 
+  } 
+}
+@media screen and (max-width: 768px) and (min-width: 390px) {
+  .introduction__roundBox {
+    width: 32%;
+    padding: 40px 5px; 
+  }
+  .introduction__roundBox p {
+    height: 180px; 
+  } 
+}
+@media screen and (max-width: 390px) {
+  .introduction__roundBox {
+    width: 100%;
+    padding: 100px 20px 30px 20px;
+    margin-top: 20px !important; 
+  } 
+}
+.introduction__icons {
+  height: 100%;
+  width: 50%;
+  margin-bottom: 25px; 
+}

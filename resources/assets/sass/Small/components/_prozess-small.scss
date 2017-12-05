@@ -1,0 +1,118 @@
+.card__container {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.card {
+  position: relative;
+  width: 23rem;
+  height: 25rem;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 1.5rem 3rem; 
+  margin-right: 1.5rem;
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  box-sizing: border-box;
+  p {
+    white-space: normal;
+  }
+  @media screen and (max-width: 375px) {
+    width: auto;
+  }
+}
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 30px 0 3rem 0;
+    box-sizing: border-box;
+}
+.card:nth-child(1), .paddingLeft--card {
+  margin-left: 5rem;
+  @media screen and (max-width: 550px) {
+    margin-left: 2rem;
+  }
+}
+.card:nth-child(6) {
+  margin-right: 5rem;
+  @media screen and (max-width: 550px) {
+    margin-right: 2rem;
+  }
+}
+.blueHighlight {
+  position: absolute;
+  top: 30px;
+  left: -3px;
+  border-left: 6px solid #34c5ed;
+  padding-left: calc(1.5rem - 3px);
+}
+.blueHighlight p {
+  margin: 10px 0px;
+  color: #34c5ed;
+
+}
+.prozessText {
+  font-family: 'Open Sans', sans-serif;
+  width: 60%;
+  margin: 0 auto; 
+  margin-bottom: 80px;
+}
+.mehrAnzeiger {
+  height: 30px;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  @media screen and (max-width: 550px) {
+    padding-left: 2rem;
+  }
+}
+.prozessText__container {
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+}
+.arrowRight {
+  border: solid black;
+    border-width: 0 3px 3px 0 !important;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 4px;
+    transform: rotate(-45deg);
+}
+.animation {
+  display: inline-block;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100%  { -webkit-transform: translateX(0); }
+    40%  { -webkit-transform: translateX(-20px); }
+  80% { -webkit-transform: translateX(-10px); }
+}
+.testing {
+  width: 100%;
+  height: auto;
+  max-height: 375px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(39, 21, 102,.3);
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 13px 3px rgba(242,242,242,1);
+}
+.content {
+  padding-left: 60px;
+  padding-right: 60px;
+  h3 {
+    margin-top: 0;
+  }
+  @media screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.prozess {
+  background-color: #f5f5f5; 
+}

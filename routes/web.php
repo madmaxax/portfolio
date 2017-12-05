@@ -11,8 +11,23 @@
 |
 */
 Route::get('/', 'Controller@landing');
+
+Route::get('/über-mich/', 'Controller@überMich');
+
+Route::get('/leistungen/', 'Controller@leistungen');
+
+Route::get('/impressum/', 'Controller@impressum');
+
 Route::get('/kontakt/', 'Controller@kontakt');
-Route::get('/blog/', 'Controller@blogOverview');
-Route::get('/blog/{blogURL}/', 'Controller@viewBlogPost');
-Route::get('/sitemap/', 'Controller@sitemap');
+
+Route::get('/klassenraum/', 'Controller@blogOverview');
+
+Route::get('/klassenraum/konkurrenz/', 'Controller@konkurrenz');
+
+Route::get('/klassenraum/online-präsenz/', 'Controller@onlinePräsenz');
+
+Route::get('/klassenraum/online-präsenz/potential-internetseite/', 'Controller@potentialInternetseite');
+
+Route::get('/klassenraum/online-präsenz/soziale-medien/', 'Controller@sozialeMedien');
+
 Route::post('/sendmail/', 'Controller@sendMail')->name('sendmail');

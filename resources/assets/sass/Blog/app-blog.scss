@@ -1,13 +1,14 @@
-// Variables
-@import "../General/variables";
-
-//General
+// General
 @import "../General/generalStyling";
-@import "../General/helpers";
-@import "../General/navigationTop";
-@import "../General/contactForm";
-@import "../General/footer";
+@import "../General/navigation";
+@import "../General/dasBinIch";
 
-//Landingpage Specific
-@import "./components/blog";
+// Blog specific
+@import "./components/helpers-blog";
+@import "./components/blogSpecific-blog";
+@import "./components/mediaIcons-blog";
+@import "./components/overlay-blog";
+
+
+
 
