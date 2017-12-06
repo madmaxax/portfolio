@@ -16,6 +16,6 @@
 @include('/includes/footer')
 
 <script type="text/javascript" src="{{ mix('js/app-modul.js') }}"></script>
-
+@yield('googleScript')
 </body>
 </html>

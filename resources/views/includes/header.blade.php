@@ -16,11 +16,7 @@
 	<meta name="copyright" content="Maximilian Muza" />
 	<meta name="application-name" content="Portfolio" />
 	<meta name="csrf-token" content="{{ csrf_token() }}">
+	<meta name="google-site-verification" content="De7mfMCZEidnN7gBWDlk_vIRJzm-r2xpaf8ii-7JUfE" />
 	<meta name="p:domain_verify" content="82c933ec35934928940e18e09052b2c2"/>
-	<meta property="og:url" content="http://maximilianmuza.de" />
-	<meta property="og:type" content="homepage" />
-	<meta property="og:title" content="Maximilian Muza: Internetseiten Erstellung" />
-	<meta property="og:description" content="So erstellst du einen Internetauftritt mit dem Ziel neue Kunden zu gewinnen." />
-	<meta property="og:image" content="http://maximilianmuza.de/img/M.png" />
 </head>
 

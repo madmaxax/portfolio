@@ -109,7 +109,7 @@
 						<label class="colorGrey">Modul 2 - Soziale Medien</label><br>
 						<input type="radio" name="modul" value="test">
 						<label class="colorGrey">Modul 3 - Test</label><br><br>
-						<button type="submit" class="standardButton">LOS GEHTS</button>
+						<button type="submit" class="standardButton">Mache weiter</button>
 						{{ csrf_field() }}
 					</form>
 		@endif
@@ -119,4 +119,20 @@
 	</div>
 </div>
 @include('/includes/_mediaIcons')
+@stop
+
+@section('googleScript')
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Online Präsenz erstellen.",
+  "description": "Der ultimative Guide, um dein Unternehmen erfoglreich im Internet zu vertreten.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Maximilian Muza",
+    "sameAs": "maximilianmuza.de"
+  }
+}
+</script>
 @stop

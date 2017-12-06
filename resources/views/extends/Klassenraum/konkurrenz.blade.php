@@ -10,6 +10,11 @@
 
 	<meta name="description" content="Du hast Schwierigkeiten dein Unternehmen authentisch zu machen und Sympathie zu deinen Kunden aufzubauen? Lerne nun wie du dich hierdurch von deiner Konkurrenz absetzen kannst.">
     <meta name="keywords" content="Tipps, von Konkurrenz absetzen, Internetseiten für Geschäft, Website erstellen, Mehrwert für Kunden">
+    <meta property="og:url" content="http://maximilianmuza.de/klassenraum/konkurrenz.html" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Setze dich von deiner Konkurrenz ab." />
+	<meta property="og:description" content="Lerne in diesem Artikel meine Ideen und Ratschläge kennen, um dein Unternehmen authentischer zu machen." />
+	<meta property="og:image" content="http://maximilianmuza.de/img/konkurrenz.jpg" />
 
 @stop
 
@@ -66,4 +71,20 @@
 			</div> -->
 		</div>
 	</div>
+@stop
+
+@section('googleScript')
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "Setze dich von deiner Konkurrenz ab.",
+  "description": "Du hast Schwierigkeiten dein Unternehmen authentisch zu machen und Sympathie zu deinen Kunden aufzubauen? Lerne nun wie du dich hierdurch von deiner Konkurrenz absetzen kannst.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Maximilian Muza",
+    "sameAs": "maximilianmuza.de"
+  }
+}
+</script>
 @stop

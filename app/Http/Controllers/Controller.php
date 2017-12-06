@@ -79,13 +79,6 @@ class Controller extends BaseController
 
 		return redirect('/klassenraum/online-präsenz/' . $modul . '/');
 	}
-
-	public function cookieTest()
-	{
-		$name = 'max';
-		$mail = 'madmax@gmx.de';
-		return response('Cookie set!')->withCookie(cookie()->forever('kursinfo', $cookie, time()+3600, '/'));
-	}
 	public function outputCookie()
 	{
 		return unserialize(\Cookie::get('kursinfo'));

@@ -10,8 +10,11 @@
 
 	<meta name="description" content="Alles über Websites und die Möglichkeit deinen Umsatz zu steigern. So begeisterst du deine Kunden..">
     <meta name="keywords" content="Internetseiten, Website erstellen, Homepage erstellen, Umsatz, Besucher zu Kunden, Wie gewinne">
-    <meta name="google-site-verification" content="De7mfMCZEidnN7gBWDlk_vIRJzm-r2xpaf8ii-7JUfE" />
-
+    <meta property="og:url" content="http://maximilianmuza.de" />
+	<meta property="og:type" content="homepage" />
+	<meta property="og:title" content="Maximilian Muza: Internetseiten Erstellung" />
+	<meta property="og:description" content="So erstellst du einen Internetauftritt mit dem Ziel neue Kunden zu gewinnen." />
+	<meta property="og:image" content="http://maximilianmuza.de/img/M.png" />
 
 @stop
 
@@ -174,4 +177,26 @@
 		</div>
 	</div>
 </div>
+@stop
+
+@section('googleScript')
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://maximilianmuza.de",
+  "logo": "http://maximilianmuza.de/img/M.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+49-1578-2813332",
+    "contactType": "customer service",
+    "availableLanguage": "German"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/maximilianmuza/",
+    "https://www.linkedin.com/in/maximilianmuza",
+    "https://plus.google.com/114290443080274459125"
+  ]
+}
+</script>
 @stop
