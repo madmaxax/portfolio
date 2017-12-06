@@ -1,8 +1,8 @@
 // General
-@import "../General/generalStyling";
-@import "../General/navigation";
-@import "../General/dasBinIch";
-@import "../General/contactForm";
+@import "../General/components/generalStyling";
+@import "../General/components/navigation";
+@import "../General/components/dasBinIch";
+@import "../General/components/contactForm";
 
 // Blog specific
 @import "./components/helpers-blog";

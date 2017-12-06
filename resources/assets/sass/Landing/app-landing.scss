@@ -1,7 +1,7 @@
 // General
-@import "../General/generalStyling";
-@import "../General/navigation";
-@import "../General/dasBinIch";
+@import "../General/components/generalStyling";
+@import "../General/components/navigation";
+@import "../General/components/dasBinIch";
 
 // Landing specific
 @import "./components/helpers-landing";

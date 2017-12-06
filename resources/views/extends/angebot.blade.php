@@ -1,4 +1,4 @@
-@extends('front-small')
+@extends('front')
 
 @section('title')
 
@@ -27,13 +27,29 @@
 	
 	<div class="contactForm__wrapper">
 		<div class="textCenter">
-			<h1>Kontakt</h1>
-			<p>Name: Maximilian Muza</p>
-			<p>E-Mail: muza.maximilian@gmail.com</p>
-			<p>Telefon-Nr.: +49 1578 2813332</p>
+			<h1>Angebot einholen</h1>
 		</div>
 		<br>
-		<div class="contactForm flex boxShadow roundBox">
+		<div class="anfrage">
+		    <section id="allgemeines">
+		        <h2><a href="#allgemeines">Allgemeines</a></h2>
+		        <p>Hier stehen ganz allgemeine Informationen.</p>
+		    </section>
+		    <section id="funktionen">
+		        <h2><a href="#funktionen">Funktionen</a></h2>
+		        <p>Hier stehen Informationen zu den Funktionen</p>
+		    </section>
+		    <section id="preise">
+		        <h2><a href="#preise">Preise</a></h2>
+		        <p>Hier stehen Informationen zu den Preisen.</p>
+		        <p>Hier stehen Informationen zu den Preisen.</p>
+		        <p>Hier stehen Informationen zu den Preisen.</p>
+
+		    </section>
+		</div>
+
+
+		<!-- <div class="contactForm flex boxShadow roundBox">
 			<h2 class="width--40">Ich freue mich von dir zu hören!</h2>
 			<form action="{{ route('sendmail') }}" method="post">
 				<div class="contactForm__group">
@@ -54,7 +70,7 @@
 				<button type="submit">Sende</button>
 				{{ csrf_field() }}
 			</form>
-		</div>
+		</div> -->
 		<div class="spacing"></div>
 	</div>
 
