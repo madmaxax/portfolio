@@ -11,6 +11,9 @@
 			<a target="_blank" href="https://www.linkedin.com/in/maximilianmuza/">
 				<i class="icon-linkedin-squared"></i>
 			</a>
+			<a target="_blank" href="https://www.pinterest.com">
+				<i class="icon-pinterest-circled"></i>
+			</a>
 		</div>
 	</div>
 </div>

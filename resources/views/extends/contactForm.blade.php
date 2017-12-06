@@ -48,7 +48,6 @@
 				<button type="submit">Sende</button>
 				{{ csrf_field() }}
 			</form>
-
 		</div>
 	</div>
 

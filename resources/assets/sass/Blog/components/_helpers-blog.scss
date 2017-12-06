@@ -97,6 +97,9 @@ span {
 .blue {
   background-color: #34c5ed;
 }
+.colorBlue {
+  color: #34c5ed;
+}
 .flex {
   display: flex !important;
   justify-content: center;
@@ -107,6 +110,9 @@ span {
 }
 .topMargin {
   margin-top: 20px;
+}
+.marginZero {
+  margin-top: 0 !important;
 }
 .underline {
   text-decoration: underline;

@@ -31,3 +31,10 @@ Route::get('/klassenraum/online-präsenz/potential-internetseite/', 'Controller@
 Route::get('/klassenraum/online-präsenz/soziale-medien/', 'Controller@sozialeMedien');
 
 Route::post('/sendmail/', 'Controller@sendMail')->name('sendmail');
+
+Route::post('/sendkursinfo/', 'Controller@sendkursinfo')->name('sendkursinfo');
+
+
+Route::get('/cookie-test/', 'Controller@cookieTest');
+
+Route::get('/output-cookie/', 'Controller@outputCookie');

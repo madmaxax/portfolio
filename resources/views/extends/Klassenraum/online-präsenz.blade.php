@@ -71,7 +71,34 @@
 				<div class="spacing"></div>
 			</div>
 			<div class="knowledge__test">
-				<a href="/klassenraum/online-präsenz/potential-internetseite/" class="standardButton"><span>Los gehts</span><i class="icon-right-open"></i></a>
+				<a id="overlayAlertClick" class="standardButton">	
+					<span>Los gehts</span><i class="icon-right-open"></i>
+				</a>
+			</div>
+			<div id="overlayAlert" class="overlay" style="display: none;">
+				<div class="alert contactInfo__alert">
+					<i id="overlayAlertClose" class="icon-cancel iconRight"></i>
+					<h3>Newsletter?</h3>
+					<p class="marginZero">Du hast jetzt die Möglichkeit meinen wöchentlichen Newletter und damit wertvolle Inhalte komplett gratis zu erhalten. </p>
+					<form action="{{ route('sendkursinfo') }}" method="post">
+						<div class="contactForm__group">
+							<input class="width--300" type="text" name="name" required>
+							<span class="bar"></span>
+			      			<label class="label">Name</label>
+						</div>
+						<div class="contactForm__group">
+							<input class="width--300" type="email" name="mail" required>
+							<span class="bar"></span>
+			      			<label class="label">Email</label>
+						</div>
+						<div class="contactForm__group">
+							<input type="checkbox" name="subscribeNews" required>
+							<label class="colorBlue" for="subscribeNews">Hiermit akzeptiere ich den Erhalt der wöchentlichen Newsletter</label>
+						</div>
+						<button type="submit" class="standardButton">Ab zum Kurs</button>
+						{{ csrf_field() }}
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>

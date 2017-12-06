@@ -32,7 +32,7 @@
 			</a>
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-			<a href="/index/">START</a>
+			<a href="/">START</a>
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
 			<a href="/klassenraum/">KLASSENRAUM</a>

@@ -116,6 +116,11 @@ if (document.getElementById('overlayAlertClick')) {
 		toggleModul('overlayAlert');
 	};
 }
+if (document.getElementById('overlayAlertClose')) {
+	document.getElementById('overlayAlertClose').onclick = function () {
+		toggleModul('overlayAlert');
+	};
+}
 if (document.getElementById('modul1Click')) {
 	document.getElementById('modul1Click').onclick = function () {
 		toggleModul('modul1');

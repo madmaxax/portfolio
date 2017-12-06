@@ -58,4 +58,22 @@ class Controller extends BaseController
 			->send(new \App\Mail\MyMail($request->input('name'), $request->input('mail'), $request->input('nachricht')));
 		return redirect()->back();
 	}
+	public function sendkursinfo(\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer) 
+	{
+		$name = $request->input('name');
+		$mail = $request->input('mail');
+		$mailer
+			->to('maximilian.muza@gmx.de')
+			->send(new \App\Mail\KursInfoMail($name, $mail));
+		return redirect('/klassenraum/online-präsenz/potential-internetseite');
+	}
+
+	public function cookieTest()
+	{
+		return response('Cookie set!')->withCookie(cookie('name', 'value', 60));
+	}
+	public function outputCookie(\Illuminate\Http\Request $request)
+	{
+		return $request->cookie('name');
+	}
 }
