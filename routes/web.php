@@ -20,6 +20,8 @@ Route::get('/impressum/', 'Controller@impressum');
 
 Route::get('/kontakt/', 'Controller@kontakt');
 
+Route::get('/angebot-einholen/', 'Controller@angebot');
+
 Route::get('/klassenraum/', 'Controller@blogOverview');
 
 Route::get('/klassenraum/konkurrenz/', 'Controller@konkurrenz');

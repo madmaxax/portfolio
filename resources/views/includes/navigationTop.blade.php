@@ -7,9 +7,6 @@
 			</a>
 		</div>
 		<div class="navigationItem sliding-middle-out displayNone">
-			<a href="/">START</a>
-		</div>
-		<div class="navigationItem sliding-middle-out displayNone">
 			<a href="/klassenraum/">KLASSENRAUM</a>
 		</div>
 		<div class="navigationItem sliding-middle-out displayNone">
@@ -17,6 +14,9 @@
 		</div>
 		<div class="navigationItem sliding-middle-out displayNone">
 			<a href="/über-mich/">ÜBER MICH</a>
+		</div>
+		<div class="navigationItem sliding-middle-out displayNone">
+			<a href="/kontakt/">KONTAKT</a>
 		</div>
 		<div class="navigationItem sliding-middle-out display">
 			<a id="menu" href="#">&#9776; MENU</a>
@@ -32,9 +32,6 @@
 			</a>
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-			<a href="/">START</a>
-		</div>
-		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
 			<a href="/klassenraum/">KLASSENRAUM</a>
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
@@ -42,6 +39,9 @@
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
 			<a href="/über-mich/">ÜBER MICH</a>
+		</div>
+		<div class="navigationItem--whiteColor sliding-middle-out displayNone">
+			<a href="/kontakt/">KONTAKT</a>
 		</div>
 		<div class="navigationItem--whiteColor sliding-middle-out display">
 			<a id="menu--white" href="#">&#9776; MENU</a>

@@ -36,7 +36,7 @@
 			<p>Laut Google nutzen 97% der Konsumenten das Internet um nach lokalen Unternehmen zu Suchen. Das bedeutet, es ist deine Pflicht dein Unternehmen erfolgreich im Internet zu präsentieren - egal welcher Branche du angehörst.</p>
 			<img class="blogSpecific__picture center" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 			<h2 class="boldHeadline">Lerne jetzt in zwei kompakten Modulen alles rund um Erfolg und Aufmerksamkeit im Internet.</h2>
-			<h4 class="klassenraum__listItems">Das kannst du erwarten:</h4>
+			<h4 class="klassenraum__listItems">Das wirst du lernen:</h4>
 			<div class="modul__container">
 				<div id="modul1Click" class="modul flex">
 					<i class="icon-desktop"></i>
@@ -93,8 +93,8 @@
 			      			<label class="label">Email</label>
 						</div>
 						<div class="contactForm__group">
-							<input type="checkbox" name="subscribeNews" required>
-							<label class="colorBlue" for="subscribeNews">Hiermit akzeptiere ich den Erhalt der wöchentlichen Newsletter</label>
+							<input type="checkbox" name="subscribeNews">
+							<label class="colorGrey" for="subscribeNews">Hiermit akzeptiere ich den Erhalt der wöchentlichen Newsletter</label>
 						</div>
 						<button type="submit" class="standardButton">Ab zum Kurs</button>
 						{{ csrf_field() }}

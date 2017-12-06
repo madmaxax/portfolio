@@ -116,7 +116,7 @@
 		    <div class="ad__contentContainer">
 		        <h2>Nutze die großartigen Möglichkeiten, die eine Internetseite deinem Unternehmen bietet.</h2>
 		        <p class="displayNone width--50 center">Ich helfe dir gerne dabei, dein Unternehmen mithilfe einer Internetseite erfolgreich im Internet zu präsentieren.</p>
-		        <a href="mailto:muza.maximilian@gmail.com" class="standardButton">ANGEBOT ERFRAGEN</a>
+		        <a href="/angebot-einholen/" class="standardButton">ANGEBOT ERFRAGEN</a>
 		    </div>
 		</div>
 		<div class="standardCard blog textCenter">
@@ -171,7 +171,7 @@
 				</div>		
 				<div class="box dasBinIch__boxChange paddingLeft">
 					<p>Mein Ziel ist es lokalen Unternehmen zu helfen, sich für die digitale Zukunft vorzubereiten.</p>
-					<a href="mailto:muza.maximilian@gmail.com" class="standardButton flex">JETZT KONTAKTIEREN</a>
+					<a href="/kontakt/" class="standardButton flex">JETZT KONTAKTIEREN</a>
 				</div>
 			</div>
 		</div>

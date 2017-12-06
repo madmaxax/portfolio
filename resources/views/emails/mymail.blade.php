@@ -21,10 +21,13 @@
             <p>{{ $name }}</p>
             <h3>Email:</h3>
             <p>{{ $mail }}</p>
-            @if(isset($nachricht))
+        @if(isset($nachricht))
             <h3>Nachricht:</h3>
             <p>{{ $nachricht }}</p>
-            @endif
+        @endif
+        @if($subscription === 'on')
+            <h3>Subscription: True</h3>
+        @endif
             <hr>
 			<p>Beste Grüße,</p>
 			<p>Madmax</p>

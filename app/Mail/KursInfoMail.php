@@ -11,17 +11,18 @@ class KursInfoMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $name, $mail;
+    public $name, $mail, $subscription;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $mail)
+    public function __construct($name, $mail, $subscription)
     {
         $this->name = $name;
         $this->mail = $mail;
+        $this->subscription = $subscription;
     }
 
     /**

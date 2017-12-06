@@ -2,14 +2,14 @@
 
 @section('title')
 
-	<title>Kontakt | Maximilian Muza</title>
+	<title>Angebot | Maximilian Muza</title>
 
 @stop
 
 @section('metaTag')
 
-	<meta name="description" content="Fragst du dich wie du deine Website besser nutzen kannst? Wie du mit ihr mehr Erfolg haben kannst? Dann zögere nicht mich zu kontaktieren!">
-    <meta name="keywords" content="Fragen, Kontakt, Wie gewinne, Internetseiten, Website erstellen, Homepage erstellen" />
+	<meta name="description" content="Du möchtest wissen wie teuer ein neue Internetauftritt ist? Das und weitere Fragen erkläre ich dir gerne.">
+    <meta name="keywords" content="Fragen, Angebot, Angebot erfragen, Webdesign, Kontakt, Wie gewinne, Internetseiten, Website erstellen, Homepage erstellen" />
 
 @stop
 

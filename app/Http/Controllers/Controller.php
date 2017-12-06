@@ -31,6 +31,10 @@ class Controller extends BaseController
 	{
     	return view('extends.contactForm');
 	}
+	public function angebot() 
+	{
+    	return view('extends.angebot');
+	}
 	public function blogOverview() 
 	{
     	return view('extends.klassenraum');
@@ -62,12 +66,12 @@ class Controller extends BaseController
 	{
 		$name = $request->input('name');
 		$mail = $request->input('mail');
-		$kurs = true;
-		$cookie = serialize([$name, $mail, $kurs]);
+		$subscription = $request->input('subscribeNews');
+		$cookie = serialize([$name, $mail, $subscription]);
 
 		$mailer
 			->to('maximilian.muza@gmx.de')
-			->send(new \App\Mail\KursInfoMail($name, $mail));
+			->send(new \App\Mail\KursInfoMail($name, $mail, $subscription));
 
 		\Cookie::queue('kursinfo', $cookie, time()+3600, '/');
 

@@ -282,6 +282,9 @@ a {
   width: 50%;
   margin: 0 auto !important;
   background-color: #fff;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
 }
 
 .contactForm__group {
@@ -295,9 +298,9 @@ a {
 
 input {
   font-size: 18px;
-  padding: 10px 10px 10px 5px;
+  padding: 10px 10px 10px 0px;
   border: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #666;
 }
 
 .width--300 {
@@ -320,12 +323,12 @@ input:focus {
 }
 
 .label {
-  color: #999;
+  color: #666;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
   pointer-events: none;
-  left: 5px;
+  left: 0px;
   top: 10px;
   -webkit-transition: 0.2s ease all;
   transition: 0.2s ease all;
