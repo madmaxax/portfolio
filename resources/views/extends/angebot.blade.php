@@ -24,32 +24,55 @@
 @stop
 
 @section('content')
-	
-	<div class="contactForm__wrapper">
-		<div class="textCenter">
-			<h1>Angebot einholen</h1>
-		</div>
-		<br>
-		<div class="anfrage">
-		    <section id="allgemeines">
-		        <h2><a href="#allgemeines">Allgemeines</a></h2>
-		        <p>Hier stehen ganz allgemeine Informationen.</p>
+<h1 class="textCenter">Angebot unverbindlich erfragen</h1>
+<div class="anfrage">
+	<article class="infobox">
+		<form action="{{ route('angebot') }}" method="post">
+		    <section id="dein-was">
+		        <h2>Was bist du bereit zu machen, für den maximalen Erfolg?</h2>
+		        <p>Was stehen Informationen zu den Erfolg.</p>
+		        <input type="radio" id="blog" name="blog">
+		        <label for="blog">blog</label>
+		        <input type="radio" id="socialmedia" name="socialmedia">
+		        <label for="socialmedia">socialmedia</label>
+		        <input type="radio" name="contentupdate">
+		        <label for="contentupdate">contentupdate</label>
+		        <a href="#dein-link" class="standardButton">Weiter</a>
 		    </section>
-		    <section id="funktionen">
-		        <h2><a href="#funktionen">Funktionen</a></h2>
-		        <p>Hier stehen Informationen zu den Funktionen</p>
+		    <section id="dein-link">
+		        <h2>Hast du bereits eine Internetseite?</h2>
+		        <p>url stehen Informationen zu den Internetseite.</p>
+		        <input type="url" id="url" name="url">
+		        <a href="#dein-name" class="standardButton">Weiter</a>
 		    </section>
-		    <section id="preise">
-		        <h2><a href="#preise">Preise</a></h2>
-		        <p>Hier stehen Informationen zu den Preisen.</p>
-		        <p>Hier stehen Informationen zu den Preisen.</p>
-		        <p>Hier stehen Informationen zu den Preisen.</p>
-
+		    <section id="dein-name">
+		        <h2>Name:</h2>
+		        <p>Hier stehen Informationen zu den Name.</p>
+		        <input type="text" id="name" name="name">
+		        <a href="#deine-mail" class="standardButton">Weiter</a>
 		    </section>
-		</div>
+		    <section id="deine-mail">
+		        <h2>E-Mail:</h2>
+		        <p>Hier stehen Informationen zu den mail.</p>
+		        <input type="text" id="mail" name="mail">
+		        <button type="submit" class="standardButton">Anfrage abschicken</a>
+		    </section>
+		    <section id="dein-wen">
+		        <h2>Wen willst du mit deinem Internetauftritt ansprechen?</h2>
+		        <p>Hier stehen Informationen zu den Internetauftritt.</p>
+		        <input type="radio" id="uninteressierte" name="uninteressierte">
+		        <label for="uninteressierte">uninteressierte</label>
+		        <input type="radio" name="interessierte">
+		        <label for="interessierte">interessierte</label>
+		        <a href="#dein-was" class="standardButton">Weiter</a>
+		    </section>
+		    {{ csrf_field() }}
+		</form>
+	</article>
+</div>
 
 
-		<!-- <div class="contactForm flex boxShadow roundBox">
+<!-- 		<div class="contactForm flex boxShadow roundBox">
 			<h2 class="width--40">Ich freue mich von dir zu hören!</h2>
 			<form action="{{ route('sendmail') }}" method="post">
 				<div class="contactForm__group">
@@ -70,8 +93,8 @@
 				<button type="submit">Sende</button>
 				{{ csrf_field() }}
 			</form>
-		</div> -->
+		</div>
 		<div class="spacing"></div>
-	</div>
+	</div> -->
 
 @stop

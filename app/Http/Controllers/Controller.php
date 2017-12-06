@@ -83,6 +83,16 @@ class Controller extends BaseController
 
 		return redirect('/klassenraum/online-präsenz/' . $modul . '/');
 	}
+	public function angebotAnfrage(\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer) 
+	{
+		$data = $request->all();
+		
+		$mailer
+			->to('maximilian.muza@gmx.de')
+			->send(new \App\Mail\AngebotAnfrage($data));
+
+		return redirect('/');
+	}
 	public function outputCookie()
 	{
 		return unserialize(\Cookie::get('kursinfo'));

@@ -38,5 +38,7 @@ Route::post('/sendkursinfo/', 'Controller@sendkursinfo')->name('sendkursinfo');
 
 Route::post('/kurssecondtime/', 'Controller@kurssecondtime')->name('kurssecondtime');
 
+Route::post('/angebot/', 'Controller@angebotAnfrage')->name('angebot');
+
 
 Route::get('/output-cookie/', 'Controller@outputCookie');
