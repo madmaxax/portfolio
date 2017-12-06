@@ -78,6 +78,7 @@
 			<div id="overlayAlert" class="overlay" style="display: none;">
 				<div class="alert contactInfo__alert">
 					<i id="overlayAlertClose" class="icon-cancel iconRight"></i>
+		@if(unserialize(\Cookie::get('kursinfo'))[2] === null || false)
 					<h3>Newsletter?</h3>
 					<p class="marginZero">Du hast jetzt die Möglichkeit meinen wöchentlichen Newletter und damit wertvolle Inhalte komplett gratis zu erhalten. </p>
 					<form action="{{ route('sendkursinfo') }}" method="post">
@@ -98,6 +99,20 @@
 						<button type="submit" class="standardButton">Ab zum Kurs</button>
 						{{ csrf_field() }}
 					</form>
+		@else
+					<h3>Du hast den Kurs bereits schon einmal begonnen und willst jetzt weiter lernen?</h3>
+					<p class="marginZero">Bis zu welchem Modul bist du gekommen?</p>
+					<form action="{{ route('kurssecondtime') }}" method="post">
+						<input type="radio" name="modul" value="potential-internetseite">
+						<label class="colorGrey">Modul 1 - Potential einer Internetseite</label><br>
+						<input type="radio" name="modul" value="soziale-medien">
+						<label class="colorGrey">Modul 2 - Soziale Medien</label><br>
+						<input type="radio" name="modul" value="test">
+						<label class="colorGrey">Modul 3 - Test</label><br><br>
+						<button type="submit" class="standardButton">LOS GEHTS</button>
+						{{ csrf_field() }}
+					</form>
+		@endif
 				</div>
 			</div>
 		</div>

@@ -94,7 +94,7 @@
 			</div>
 			<div id="overlayAlert" class="overlay" style="display: none;">
 				<div class="alert">
-					<i class="icon-cancel iconRight" id="overlayAlertClick"></i>
+					<i class="icon-cancel iconRight" id="overlayAlertClose"></i>
 					<p>Glückwunsch! Du hast den Kurs erfolgreich beendet. <span class="underline">(Der Test zum Überprüfen deines Wissens wird ab dem 12.12.2017 frei erhältlich sein.</p>
 					<a href="/" class="standardButton flex">ZURÜCK ZUR STARTSEITE</a>
 				</div>

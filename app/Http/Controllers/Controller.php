@@ -62,18 +62,32 @@ class Controller extends BaseController
 	{
 		$name = $request->input('name');
 		$mail = $request->input('mail');
+		$kurs = true;
+		$cookie = serialize([$name, $mail, $kurs]);
+
 		$mailer
 			->to('maximilian.muza@gmx.de')
 			->send(new \App\Mail\KursInfoMail($name, $mail));
-		return redirect('/klassenraum/online-präsenz/potential-internetseite');
+
+		\Cookie::queue('kursinfo', $cookie, time()+3600, '/');
+
+		return redirect('/klassenraum/online-präsenz/potential-internetseite/');
+	}
+	public function kurssecondtime(\Illuminate\Http\Request $request) 
+	{
+		$modul = $request->input('modul');
+
+		return redirect('/klassenraum/online-präsenz/' . $modul . '/');
 	}
 
 	public function cookieTest()
 	{
-		return response('Cookie set!')->withCookie(cookie('name', 'value', 60));
+		$name = 'max';
+		$mail = 'madmax@gmx.de';
+		return response('Cookie set!')->withCookie(cookie()->forever('kursinfo', $cookie, time()+3600, '/'));
 	}
-	public function outputCookie(\Illuminate\Http\Request $request)
+	public function outputCookie()
 	{
-		return $request->cookie('name');
+		return unserialize(\Cookie::get('kursinfo'));
 	}
 }
