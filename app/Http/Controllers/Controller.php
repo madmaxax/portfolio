@@ -43,6 +43,10 @@ class Controller extends BaseController
     {
     	return view('extends.Klassenraum.konkurrenz');
 	}
+	public function überMich() 
+    {
+    	return view('extends.Klassenraum.blog');
+	}
 	public function onlinePräsenz() 
     {
     	return view('extends.Klassenraum.online-präsenz');

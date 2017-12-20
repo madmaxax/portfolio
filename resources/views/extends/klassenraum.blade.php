@@ -50,13 +50,13 @@
 		</div>
 		<div class="blog__card makeAuto boxShadow">
 			<div class="blog__category blue">Artikel</div>
-			<a href="/klassenraum/webdesign-fehler/">	
-			    <img class="blog__picture" src="/img/webdesign_fehler.jpeg" alt="8 Webdesign Fehler die du vermeiden solltest">
-			    <div class="blog__textContainer">
-			        <h3 class="fontSize--26 marginLeft--special">Diese 8 Webdesign Fehler solltest du vermeiden.</h3>
-			        <p class="fontSize--15 marginLeft--special">Grundsätzlich gibt es im Webdesign kein falsch oder richtig. Doch in diesen Fällen solltest du ...</p>
-			        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
-			    </div>
+			<a href="/klassenraum/blog-für-dein-unternehmen/">	
+				<img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
+				<div class="blog__textContainer">
+				    <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
+				    <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
+				    <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				</div>
 			</a>
 		</div>
 		<div class="blog__card makeAuto boxShadow">

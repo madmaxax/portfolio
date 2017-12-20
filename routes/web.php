@@ -26,6 +26,8 @@ Route::get('/klassenraum/', 'Controller@blogOverview');
 
 Route::get('/klassenraum/konkurrenz/', 'Controller@konkurrenz');
 
+Route::get('/klassenraum/blog-für-dein-unternehmen/', 'Controller@blog');
+
 Route::get('/klassenraum/online-präsenz/', 'Controller@onlinePräsenz');
 
 Route::get('/klassenraum/online-präsenz/potential-internetseite/', 'Controller@potentialInternetseite');

@@ -123,7 +123,7 @@
 			<h2>Mein Klassenraum</h2>
 			<h3 class="blog__description">Du bist dir noch unentschlossen, ob dir eine Website helfen kann? Kein Problem! Dann erfahre jetzt was für Möglichkeiten sie dir bereitstellt.</h3>
 			<div class="blog__card makeAuto boxShadow">
-				<a href="./klassenraum/online-präsenz.html">	
+				<a href="/klassenraum/online-präsenz/">	
 				    <img class="blog__picture" src="/img/ideen.jpeg" alt="erstelle erfolgreiche Online Präsenz">
 				    <div class="blog__textContainer">
 				        <h3 class="fontSize--26 marginLeft--special">So erstellst du eine erfolgreiche Online Präsenz.</h3>
@@ -136,18 +136,18 @@
 				<a href="">	
 				    <img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">7 Gründe warum du deine Internetseite falsch nutzt.</h3>
+				        <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
 				        <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
 				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
 				    </div>
 				</a>
 			</div>
 			<div class="blog__card makeAuto boxShadow">
-				<a href="">	
-				    <img class="blog__picture" src="/img/webdesign_fehler.jpeg" alt="8 Webdesign Fehler die du vermeiden solltest">
+				<a href="/klassenraum/blog-für-dein-unternehmen/">	
+				    <img class="blog__picture" src="./img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">Diese 8 Webdesign Fehler solltest du vermeiden.</h3>
-				        <p class="fontSize--15 marginLeft--special">Grundsätzlich gibt es im Webdesign kein falsch oder richtig. Doch in diesen Fällen solltest du ...</p>
+				        <h3 class="fontSize--26 marginLeft--special">3 Gründe einen Blog zu beginnen.</h3>
+				        <p class="fontSize--15 marginLeft--special">Lerne jetzt wie ein Blog dir helfen kann, deinen Umsatz zu erhöhen ...</p>
 				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
 				    </div>
 				</a>
