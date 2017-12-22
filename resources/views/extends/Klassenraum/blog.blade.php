@@ -80,7 +80,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "Setze dich von deiner Konkurrenz ab.",
+  "name": "5 Gründe einen Blog zu führen.",
   "description": "Erfahren wie ein Blog deinem Unternehmen hilft die Kundenbeziehung zu vertiefen und den Umsatz zu erhöhen.",
   "provider": {
     "@type": "Organization",
