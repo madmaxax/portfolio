@@ -30,22 +30,22 @@
 @section('content')
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
-		<img class="blogSpecific__largePicture center" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+		<img class="blogSpecific__largePicture center" src="../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 		<div class="row">
 			<h1 class="impressum__headline">So erstellst du eine erfolgreiche Online Präsenz.</h1>
-			<p>Laut Google nutzen 97% der Konsumenten das Internet um nach lokalen Unternehmen zu Suchen. Das bedeutet, es ist deine Pflicht dein Unternehmen erfolgreich im Internet zu präsentieren - egal welcher Branche du angehörst.</p>
-			<img class="blogSpecific__picture center" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
+			<p>Laut Google nutzen 97% der Konsumenten das Internet um nach lokalen Unternehmen zu Suchen. Das bedeutet, es ist deine Aufgabe dein Unternehmen erfolgreich im Internet zu präsentieren - egal welcher Branche du angehörst oder wie regional dein Unternehmen ist.</p>
+			<img class="blogSpecific__picture center" src="../img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 			<h2 class="boldHeadline">Lerne jetzt in zwei kompakten Modulen alles rund um Erfolg und Aufmerksamkeit im Internet.</h2>
-			<h4 class="klassenraum__listItems">Das wirst du lernen:</h4>
+			<h4 class="klassenraum__listItems">Das kannst du erwarten:</h4>
 			<div class="modul__container">
-				<div id="modul1Click" class="modul flex">
+				<div class="modul flex" onclick="toggleModul('modul1')">
 					<i class="icon-desktop"></i>
 					<p>Schöpfe das Potential deiner Internetseite gekonnt aus</p>
 					<i class="icon-down-open"></i>
 				</div>
 				<div id="modul1" class="modul--extended" style="display: none;">
 					<h4 class="klassenraum__listItems">Schöpfe das Potential deiner Internetseite gekonnt aus.</h4>
-					<p>Oft bin ich Leuten begegnet, die eine Internetseite haben, jedoch nicht das volle Potential nutzen. Darum habe ich dieses Modul entwickelt. Es wird folgenden Fragen begegnen:</p>
+					<p>Oft bin ich Leuten begegnet, die eine Internetseite haben, jedoch nicht das volle Potential nutzen. Darum habe ich dieses Modul entwickelt. Es wird dir folgende Fragen beantworten:</p>
 					<ul>
 						<li class="overview__listItems">Was muss unbedingt auf meine Internetseite?</li>
 						<li class="overview__listItems">Wie begeistere ich neue noch uninteressierte Besucher und gewinne neue Kunden?</li>
@@ -53,19 +53,19 @@
 						<li class="overview__listItems">Wie erreiche ich Handy Nutzer mit meiner Internetseite erfolgreich?</li>
 					</ul>
 				</div>
-				<div id="modul2Click" class="modul flex">
+				<div class="modul flex" onclick="toggleModul('modul2')">
 					<i class="icon-users"></i>
 					<p>Soziale Medien: So baust du eine Verbindung mit deinen Kunden auf</p>
 					<i class="icon-down-open"></i>
 				</div>
 				<div id="modul2" class="modul--extended" style="display: none;">
 					<h4 class="klassenraum__listItems">Soziale Medien: So baust du eine Verbindung mit deinen Kunden auf.</h4>
-					<p>Mit weltweit über 2 Milliarden aktiven Nutzer auf den Social Media Plattformen ist es für dich besonders wichtig dort anzusetzen. Natürlich, wirst du nicht über Nacht Erfolg sehen. In diesem Modul wirst du folgenden Fragen begegnen:</p>
+					<p>Mit weltweit über 2 Milliarden aktiven Nutzer in den Sozialen Netzwerken ist es für dich besonders wichtig dort anzusetzen - auch wenn, du nicht über Nacht Erfolg sehen wirst. Das Modul klärt dir folgende Fragen:</p>
 					<ul>
 						<li class="overview__listItems">Warum sind die sozialen Medien heute unabdingbar?</li>
-						<li class="overview__listItems">Win sozialen Netzwerken?</li>
+						<li class="overview__listItems">Wie präsentiere ich mich gekonnt in sozialen Netzwerken?</li>
 						<li class="overview__listItems">Wie trete ich mit meinen Kunden, aber auch mit neuen Besuchern in Kontakt?</li>
-						<li class="overview__listItems">Wie könne meine Kunden von mir profitieren?</li>
+						<li class="overview__listItems">Wie können meine Kunden von meiner Seite profitieren?</li>
 					</ul>
 				</div>
 				<div class="spacing"></div>

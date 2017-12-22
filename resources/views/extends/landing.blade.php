@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		<div class="standardCard leistungen">
-			<h2 class="textCenter mobilePadding mobilePadding">.. Meine Internetseiten machen es möglich!</h2>
+			<h2 class="textCenter mobilePadding mobilePadding">.. Lasse mir dir helfen es möglich zu machen!</h2>
 			<div class="row">
 				<div class="box--pic">
 					<img class="erfolg__img boxShadow" src="/img/schlange.jpg" alt="geschäft">
@@ -60,7 +60,6 @@
 						<div class="box-aa content">
 							<h3 class="marginZero boldParagraph">Du führst ein regionales Unternehmen und hast Schwierigkeiten neue Kunden zu gewinnen?</h3>
 							<p>Wie wäre es mit einer Internetseite, die Besucher begeistert? Eine Internetseite auf der deine Besucher von deiner Arbeit und deinen Zielen lernen. Auf der sie wertvolle Tipps von dir erhalten.</p>
-							<!-- <p class="displayNone">Du hast einen Fahrradladen? Erzähle ihnen wie man die Kette ölt. Das stärkt die Kundenbeziehung.</p> -->
 						</div>
 					</div>
 				</div>
@@ -132,16 +131,6 @@
 				    </div>
 				</a>
 			</div>
-			<div class="blog__card makeAuto">
-				<a href="">	
-				    <img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
-				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
-				        <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
-				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
-				    </div>
-				</a>
-			</div>
 			<div class="blog__card makeAuto boxShadow">
 				<a href="/klassenraum/blog-für-dein-unternehmen/">	
 				    <img class="blog__picture" src="./img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
@@ -158,6 +147,16 @@
 				    <div class="blog__textContainer">
 				        <h3 class="fontSize--26 marginLeft--special">3 Möglichkeiten dich von der Konkurrenz abzusetzen.</h3>
 				        <p class="fontSize--15 marginLeft--special">Bist du dir unsicher wie du dich am besten von der Konkurrenz abheben kannst? Wie wäre es ...</p>
+				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				    </div>
+				</a>
+			</div>
+			<div class="blog__card makeAuto">
+				<a href="/klassenraum/">	
+				    <img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
+				    <div class="blog__textContainer">
+				        <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
+				        <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
 				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
 				    </div>
 				</a>
