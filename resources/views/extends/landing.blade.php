@@ -133,7 +133,7 @@
 			</div>
 			<div class="blog__card makeAuto boxShadow">
 				<a href="/klassenraum/blog-für-dein-unternehmen/">	
-				    <img class="blog__picture" src="./img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
+				    <img class="blog__picture" src="/img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
 				    <div class="blog__textContainer">
 				        <h3 class="fontSize--26 marginLeft--special">3 Gründe einen Blog zu beginnen.</h3>
 				        <p class="fontSize--15 marginLeft--special">Lerne jetzt wie ein Blog dir helfen kann, deinen Umsatz zu erhöhen ...</p>

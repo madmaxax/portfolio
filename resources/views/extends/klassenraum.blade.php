@@ -51,10 +51,10 @@
 		<div class="blog__card makeAuto boxShadow">
 			<div class="blog__category blue">Artikel</div>
 			<a href="/klassenraum/blog-für-dein-unternehmen/">	
-				<img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
+			    <img class="blog__picture" src="/img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
 				<div class="blog__textContainer">
-				    <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
-				    <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
+				    <h3 class="fontSize--26 marginLeft--special">3 Gründe einen Blog zu beginnen.</h3>
+				    <p class="fontSize--15 marginLeft--special">Lerne jetzt wie ein Blog dir helfen kann, deinen Umsatz zu erhöhen ...</p>
 				    <button class="marginLeft--special">Erfahre mehr zum Thema</button>
 				</div>
 			</a>
