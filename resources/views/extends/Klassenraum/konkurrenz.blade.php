@@ -31,11 +31,11 @@
 @section('content')
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
-		<img class="blogSpecific__largePicture center" src="../img/konkurrenz.jpg" alt="Konkurrenz Wettkampf">
+		<img class="blogSpecific__largePicture center" src="/img/konkurrenz.jpg" alt="Konkurrenz Wettkampf">
 		<div class="row">
 			<h1 class="impressum__headline">3 Möglichkeiten dich von deiner Konkurrenz abzusetzen</h1>
 			<p>Kunden haben häufig eine sehr große Auswahl an Unternehmen, für die sie sich entscheiden könnten. Daher ist es für dich besonders wichtig einen Mehrwert für deine Besucher zu leisten. Lerne jetzt wie du aus der Masse hervortauchen und dein Geschäft verwandeln kannst.</p>
-			<img class="blogSpecific__picture center" src="../img/konkurrenz.jpg" alt="Konkurrenz Wettkampf">
+			<img class="blogSpecific__picture center" src="/img/konkurrenz.jpg" alt="Konkurrenz Wettkampf">
 			<h2 class="boldHeadline">Finde jetzt in 3 Schritten heraus wie du dein Geschäft von deiner Konkurrenz absetzen kannst:</h2>
 			<h4 class="klassenraum__listItems">1. Präsentiere dein Unternehmen aus der richtigen Perspektive.</h4>
 			<p>Oft habe ich Unternehmen kennengelernt, die eine unerwünschte Wirkung auf ihre Kunden haben. Nach meiner Erfahrung wollen Kunden nicht unbedingt wissen, was für ein Gewerbe du betreibst und welche Arbeiten du leistet. Stattdessen sind sie daran interessiert, warum du genau das machst und wie sie davon profitieren können.</p>

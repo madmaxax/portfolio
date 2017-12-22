@@ -36,7 +36,7 @@
 @section('content')
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
-		<img class="blogSpecific__largePicture center" src="../../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+		<img class="blogSpecific__largePicture center" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 		<div class="modul__overview displayNone">
 			<div class="modul__overviewItem borderLeft--orange">
 				<p>Modul 1:</p>
@@ -72,7 +72,7 @@
 					<p class="boldParagraph">Präsentiere dein Produkt bzw. deine Dienstleistung aus einer Perspektive, die für deine Besucher interessant sein könnte.</p>
 					<div class="halfBorder"></div>
 				</div>
-				<img class="blogSpecific__smallPicture" src="../../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+				<img class="blogSpecific__smallPicture" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 			</div>
 			<p>Hast du dir schon mal Gedanken gemacht dein Produkt / deine Dienstleistung auf deiner Internetseite vorzustellen? Damit hast du die Möglichkeit potentiellen Kunden ..</p>
 			<p>.. dein Produkt auf eine interessante Art vorzustellen.</p>
@@ -93,7 +93,7 @@
 				<ul>
 					<li class="kurs__listItem">Beispiel A: Bestellung eines Produkts über das Internet</li>
 					<p>Ideal wäre es, wenn deine potentielle Kunden dein Produkt einfach über das Internet bestellen könnten.</p>
-					<img class="blogSpecific__picture" src="../../img/produkt.png" alt="Verkaufsseite von Produkt">
+					<img class="blogSpecific__picture" src="/img/produkt.png" alt="Verkaufsseite von Produkt">
 					<p>Du könntest entweder dein Produkt auf dem eigenen Onlineshop (Beispiel siehe Bild) verkaufen oder auf Seiten wie amazon.de. In dem letzten Fall könntest du zum Beispiel von der eigenen Website auf die von amazon verlinken. Beachte aber, dass das erneut einen Umweg für deine Kunden bedeuten würde.</p>
 					<p>Am Ende ist es deine Aufgabe zu entscheiden, ob du es deinen Kunden erleichtern willst und wenn, in welchem Umfang. Ich finde, dass es sich in jedem Fall auszahlt.</p>
 					<li class="kurs__listItem">Beispiel B: Buchung einer Dienstleistung auf deiner Website</li>
@@ -111,7 +111,7 @@
 					<p class="boldParagraph">Organisiere regelmäßige Events und mache sie hier bekannt.</p>
 					<div class="halfBorder"></div>
 				</div>
-				<img class="blogSpecific__smallPicture" src="../../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+				<img class="blogSpecific__smallPicture" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 			</div>
 			<p>Eine Internetseite gibt dir sehr gute Möglichkeiten deine nächste Veranstaltung vorzustellen. Jedes Mal wenn jemand deine Internetseite besucht, könnte ein Feld für deine nächste Veranstaltung werben.</p>
 			<p>Du willst deinen Besuchern die Veranstaltung noch intensiver vorstellen und Gründe nennen, warum jeder kommen sollte? Kein Problem! Mit einer eigenen Unterseite der Veranstaltung gewidmet kannst du die Besuchern begeistern und den Ablauf mitteilen.</p>
@@ -122,7 +122,7 @@
 					<p class="boldParagraph">Schreibe einen Blog und gebe einen Teil deines Wissens weiter.</p>
 					<div class="halfBorder"></div>
 				</div>
-				<img class="blogSpecific__smallPicture" src="../../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+				<img class="blogSpecific__smallPicture" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 			</div>
 			<p>Obwohl dein Blog in erster Linie nicht als Werbemittel genutzt werden sollte, kann er einen unglaublichen Nutzen für dein Unternehmen haben.</p>
 			<p>Du solltest deinen Blog darauf ausrichten deinen Kunden zu helfen. Versuche deine Erfahrung weiterzugeben und somit der Tippgeber und Ratgeber sein.</p>

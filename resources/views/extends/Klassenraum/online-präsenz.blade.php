@@ -30,11 +30,11 @@
 @section('content')
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
-		<img class="blogSpecific__largePicture center" src="../img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
+		<img class="blogSpecific__largePicture center" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
 		<div class="row">
 			<h1 class="impressum__headline">So erstellst du eine erfolgreiche Online Präsenz.</h1>
 			<p>Laut Google nutzen 97% der Konsumenten das Internet um nach lokalen Unternehmen zu Suchen. Das bedeutet, es ist deine Aufgabe dein Unternehmen erfolgreich im Internet zu präsentieren - egal welcher Branche du angehörst oder wie regional dein Unternehmen ist.</p>
-			<img class="blogSpecific__picture center" src="../img/kreativ.jpeg" alt="Internetseite falsch genutzt">
+			<img class="blogSpecific__picture center" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 			<h2 class="boldHeadline">Lerne jetzt in zwei kompakten Modulen alles rund um Erfolg und Aufmerksamkeit im Internet.</h2>
 			<h4 class="klassenraum__listItems">Das kannst du erwarten:</h4>
 			<div class="modul__container">

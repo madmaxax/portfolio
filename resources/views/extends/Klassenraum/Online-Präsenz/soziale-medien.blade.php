@@ -36,7 +36,7 @@
 @section('content')
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
-		<img class="blogSpecific__largePicture center" src="../../img/natur_website.jpg" alt="Konkurrenz Wettkampf">
+		<img class="blogSpecific__largePicture center" src="/img/natur_website.jpg" alt="Konkurrenz Wettkampf">
 		<div class="modul__overview displayNone">
 			<div class="modul__overviewItem">
 				<p>Modul 1:</p>
@@ -52,7 +52,7 @@
 			<h1 class="impressum__headline">Lerne die soziale Medien richtig zu nutzen.</h1>
 			<p>Es ist unbedeutsam wie besonders dein Produkt / deine Dienstleistung ist, wenn keiner davon weiß. Das ist ein Extremfall, der bei dir bestimmt nicht zu trifft. Wahrscheinlich führst du ein regionales Unternehmen, dass hauptsächlich wegen deiner Stammkunden existiert.</p>
 			<p>Ich bin überzeugt, dass dir trotzdem viele Möglichkeiten geboten sind deinen Kundenstamm zu erhöhen. Finde jetzt mehr dazu heraus, wie du dabei Erfolg haben kannst.</p>
-			<img class="blogSpecific__picture" src="../../img/suchmaschinenoptimierung.jpg" alt="statistik soziale netzwerke">
+			<img class="blogSpecific__picture" src="/img/suchmaschinenoptimierung.jpg" alt="statistik soziale netzwerke">
 			<h3 class="klassenraum__listItems topMargin">1. Warum ist es heute unabdingbar, die sozialen Netzwerke zu nutzen?</h3>
 			<p>Nach dem <a class="contentQuelle underline" target="_blanket" href="https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/EinkommenKonsumLebensbedingungen/ITNutzung/Tabellen/NutzungInternetPrivZweckeAlter_IKT.html">Statistichen Bundesamt</a> nutzen in Deutschland rund 55% der Internetnutzer soziale Netzwerke zu privaten Zwecken. Das entspricht ungefähr 34,32 Millionen Nutzer, die dein Unternehmen ansprechen kann.</p>
 			<p>Ok, zugegeben. Oft können Kleinunternehmen wie deines nur einen sehr kleinen Anteil davon nutzen, weil die anderen wegen der Entfernung, dein Produkt / deine Dienstleistung nicht beanspruchen können.</p>
@@ -73,7 +73,7 @@
 			</ul>
 			<h3 class="klassenraum__listItems">3. Wie trete ich mit meinen Kunden, aber auch mit neuen Besuchern in Kontakt?</h3>
 			<p>Es gibt unzählige Möglichkeiten mit deinen Kunden auf sozialen Netzwerken in Kontakt zu treten. Das macht sie so interessant für Unternehmen.</p>
-			<img class="blogSpecific__picture" src="../../img/verbindung.jpg">
+			<img class="blogSpecific__picture" src="/img/verbindung.jpg">
 			<ol>
 				<li class="kurs__listItem">Facebook Gruppe gründen</li>
 				<p>Eine Facebook Gruppe gibt dir die Möglichkeit eine Verbindung mit deinen Kunden aufzubauen, die sonst nur sehr schwierig zu erreichen ist. Du könntest zum Beispiel deinen Kunden hier Rabattaktionen anbieten, die für andere nicht erhältlich sind. Indem du deinen Kunden das Gefühl gibts ihnen zu zuhören, werden sie sich von dir wertgeschätzt fühlen.</p>
