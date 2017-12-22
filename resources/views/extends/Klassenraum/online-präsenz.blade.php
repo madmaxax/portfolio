@@ -83,14 +83,10 @@
 					<p class="marginZero">Du hast jetzt die Möglichkeit meinen wöchentlichen Newletter und damit wertvolle Inhalte komplett gratis zu erhalten. </p>
 					<form action="{{ route('sendkursinfo') }}" method="post">
 						<div class="contactForm__group">
-							<input class="width--300" type="text" name="name" required>
-							<span class="bar"></span>
-			      			<label class="label">Name</label>
+							<input type="text" name="name" placeholder="Name">
 						</div>
 						<div class="contactForm__group">
-							<input class="width--300" type="email" name="mail" required>
-							<span class="bar"></span>
-			      			<label class="label">Email</label>
+							<input type="email" name="mail" placeholder="E-Mail">
 						</div>
 						<div class="contactForm__group">
 							<input type="checkbox" name="subscribeNews">
