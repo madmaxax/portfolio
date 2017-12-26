@@ -7,19 +7,19 @@
 				</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/klassenraum/">KLASSENRAUM</a>
+				<a href="/klassenraum/">{{ __('nav.one') }}</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/leistungen/">LEISTUNGEN</a>
+				<a href="/leistungen/">{{ __('nav.two') }}</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/über-mich/">ÜBER MICH</a>
+				<a href="/über-mich/">{{ __('nav.three') }}</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/kontakt/">KONTAKT</a>
+				<a href="/kontakt/">{{ __('nav.four') }}</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out displayNone">
-				<a href="/impressum/">IMPRESSUM</a>
+				<a href="/impressum/">{{ __('nav.five') }}</a>
 			</div>
 			<div class="navigationItem--whiteColor sliding-middle-out display">
 				<a id="menu--white" href="#">&#9776; MENU</a>
