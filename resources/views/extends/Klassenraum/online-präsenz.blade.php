@@ -28,6 +28,16 @@
 @stop
 
 @section('content')
+@if(App::isLocale('en'))
+	<div class="notAvailable__overlay">
+		<div class="notAvailable__container">
+			<h4>Alert!</h4>
+			<hr>
+			<p>This article is not yet available in english. I am sorry and will soon have the time to translate it!</p>
+			<button class="standardButton blue" onclick="window.history.back();">Go Back</button>
+		</div>
+	</div>
+@endif
 <div class="content__wrapper">
 	<div class="impressum__contentContainer">
 		<img class="blogSpecific__largePicture center" src="/img/kreativ.jpeg" alt="Konkurrenz Wettkampf">
