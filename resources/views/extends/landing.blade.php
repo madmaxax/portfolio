@@ -118,17 +118,16 @@
 		        <a href="/angebot-einholen/" class="standardButton">{{ __('landing.fourthCardButton') }}</a>
 		    </div>
 		</div>
-		@if(App::isLocale('de'))
 		<div class="standardCard blog textCenter">
-			<h2>{{ __('landing.fifthCardHeadline') }}</h2>
-			<h3 class="blog__description">{{ __('landing.fifthCardText') }}</h3>
+			<h2>{{ __('blog.fifthCardHeadline') }}</h2>
+			<h3 class="blog__description">{{ __('blog.fifthCardText') }}</h3>
 			<div class="blog__card makeAuto boxShadow">
 				<a href="/klassenraum/online-präsenz/">	
 				    <img class="blog__picture" src="/img/ideen.jpeg" alt="erstelle erfolgreiche Online Präsenz">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">{{ __('landing.fifthCard1Headline') }}</h3>
-				        <p class="fontSize--15 marginLeft--special">{{ __('landing.fifthCard1Text') }}</p>
-				        <button class="marginLeft--special">{{ __('landing.fifthCardButton') }}</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard1Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard1Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -136,9 +135,9 @@
 				<a href="/klassenraum/blog-für-dein-unternehmen/">	
 				    <img class="blog__picture" src="/img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">{{ __('landing.fifthCard2Headline') }}</h3>
-				        <p class="fontSize--15 marginLeft--special">{{ __('landing.fifthCard2Text') }}</p>
-				        <button class="marginLeft--special">{{ __('landing.fifthCardButton') }}</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard2Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard2Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -146,9 +145,9 @@
 				<a href="/klassenraum/konkurrenz/">	
 				    <img class="blog__picture" src="/img/konkurrenz.jpg" alt="von konkurrenz absetzen">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">{{ __('landing.fifthCard3Headline') }}</h3>
-				        <p class="fontSize--15 marginLeft--special">{{ __('landing.fifthCard3Text') }}</p>
-				        <button class="marginLeft--special">{{ __('landing.fifthCardButton') }}</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard3Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard3Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -156,9 +155,9 @@
 				<a href="/klassenraum/">	
 				    <img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">{{ __('landing.fifthCard4Headline') }}</h3>
-				        <p class="fontSize--15 marginLeft--special">{{ __('landing.fifthCard4Text') }}</p>
-				        <button class="marginLeft--special">{{ __('landing.fifthCardButton') }}</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard4Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard4Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -175,7 +174,6 @@
 				</div>
 			</div>
 		</div>
-		@endif
 	</div>
 </div>
 @stop

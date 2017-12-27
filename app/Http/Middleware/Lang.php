@@ -20,7 +20,7 @@ class Lang
 
         if ($browser_lang === 'de') {
 
-            App::setLocale('de');
+            App::setLocale('en');
 
         } else {
 

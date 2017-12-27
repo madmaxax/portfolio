@@ -37,6 +37,8 @@ return [
 	'action' => 'Senden',
 
 	'welcome' => 'Willkommen!',
+	'aboutMetaDescription' => 'Das bin ich. Maximilian Muza. Der Spaß am Erstellen von Internetseiten beweget mich dazu immer Neues auszuprobieren. Lerne mehr hier.',
+	'aboutMetaKeys' => 'professionell, erfolgreich, Webdesign Kiel, Internetseiten, Online Marketing, Muza, Maximilian Muza, Kleinunternehmen',
 	'aboutHeadline' => 'Mein Name ist Maximilian Muza und ich habe großen Spaß am Lernen, Helfen und Verbinden.',
 	'aboutText1' => 'Seit ungefähr einem Jahr erstelle ich Internetseiten. Oft bemerkte ich in diesem Zeitraum Unternehmen wie kleine Cafés oder Frisöre, die auf ihrer Internetseite nur die Kontaktdaten und ein Satz zu ihrer Arbeit haben.',
 	'aboutText2' => 'Gibt es keine anderen Möglichkeiten Internetseiten besser zu nutzen?',

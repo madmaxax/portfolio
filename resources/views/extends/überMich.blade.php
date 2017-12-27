@@ -8,8 +8,8 @@
 
 @section('metaTag')
 
-	<meta name="description" content="Das bin ich. Maximilian Muza. Der Spaß am Erstellen von Internetseiten beweget mich dazu immer Neues auszuprobieren. Lerne mehr hier.">
-    <meta name="keywords" content="professionell, erfolgreich, Webdesign Kiel, Internetseiten, Online Marketing, Muza, Maximilian Muza, Kleinunternehmen">
+	<meta name="description" content="{{ __('small.aboutMetaDescription') }}">
+    <meta name="keywords" content="{{ __('small.aboutMetaKeys') }}">
 
 @stop
 

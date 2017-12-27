@@ -36,8 +36,20 @@ return [
 	'msg' => 'Message',
 	'action' => 'Send',
 
-	'welcome' => 'Welcome!',
-	'aboutHeadline' => '',
+	'welcome' => 'Willkommen!',
+	'aboutMetaDescription' => 'That is me. Maximilian Muza. The fun creating new websites for local businesses makes me strive to learn more.',
+	'aboutMetaKeys' => 'professional, successful, Webdesign Auckland, Websites, Online Marketing, Muza, Maximilian Muza, local companies',
+	'aboutHeadline' => 'My name is Maximilian Muza and I enjoy to learn, help and connect.',
+	'aboutText1' => 'For about a year I have been creating websites. During this time I often noticed small companies like coffee shops or hairdressers with a website that only displays their contact info and little text about themselves.',
+	'aboutText2' => 'Is there no other way to make better use of websites?',
+	'aboutText3' => 'Yes, there is! I am convinced that a website gives companies great opportunities to get more customers and increase their turnover - no matter if it is a bike shop, hair dresser or something else.',
+	'aboutText4' => 'With my work I hope to help local companies with ambitious goals to exhaust their opportunities.',
+	'aboutText5' => 'I earn my money by selling websites. However, this does not keep me from constantly publishing new and free resources and courses that help you move forward. My goal is in the upcoming months is to increase this part of my work. In my opinion, entrepreneurs should be better and more thorougly informed about how they can increase the success with their website.',
+	'aboutText6' => 'Ok, admittedly! Until now I just talked about the great opportunities, but have not explained anything further.',
+	'aboutText7' => 'You are ambitious and want to learn more about it? Then why dont you have a look in my Library. I am sure you can find a few ideas that will help you.',
+	'aboutText8' => 'I hope the resources will spark your interest and solve all your questions. If this is not the case feel free to contact me. I constantly strive to produce better content for you.',
+	'thankyou' => 'P.S.: And thanks that you are here. I am happy about your visit and would like to hear from you!',
+	'bye' => 'See you soon',
 
 
 ];
