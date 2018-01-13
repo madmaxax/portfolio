@@ -2,7 +2,7 @@
 
 @section('title')
 
-	<title>Kontakt | Maximilian Muza</title>
+	<title>{{ __('small.contactHeadline') }} | Maximilian Muza</title>
 
 @stop
 
@@ -27,31 +27,25 @@
 	
 	<div class="contactForm__wrapper">
 		<div class="textCenter">
-			<h1>Kontakt</h1>
+			<h1>{{ __('small.contactHeadline') }}</h1>
 			<p>Name: Maximilian Muza</p>
 			<p>E-Mail: muza.maximilian@gmail.com</p>
-			<p>Telefon-Nr.: +49 1578 2813332</p>
+			<p>{{ __('small.telephone') }}-Nr.: +49 1578 2813332</p>
 		</div>
 		<br>
 		<div class="contactForm flex boxShadow roundBox">
-			<h2 class="width--40">Ich freue mich von dir zu hören!</h2>
+			<h2 class="width--40">{{ __('small.text') }}</h2>
 			<form action="{{ route('sendmail') }}" method="post">
 				<div class="contactForm__group">
-					<input class="width--300" type="text" name="name" required>
-					<span class="bar"></span>
-	      			<label class="label">Name</label>
+					<input class="width--300" type="text" name="name" placeholder="Name" required>
 				</div>
 				<div class="contactForm__group">
-					<input class="width--300" type="email" name="mail" required>
-					<span class="bar"></span>
-	      			<label class="label">Email</label>
+					<input class="width--300" type="email" name="mail" placeholder="E-Mail" required>
 				</div>
 				<div class="contactForm__group">
-					<input class="width--300" type="text" name="nachricht" required>
-					<span class="bar"></span>
-	      			<label class="label">Nachricht</label>
+					<input class="width--300" type="text" name="nachricht" placeholder="{{ __('small.msg') }}" required>
 				</div>
-				<button type="submit">Sende</button>
+				<button type="submit">{{ __('small.action') }}</button>
 				{{ csrf_field() }}
 			</form>
 		</div>

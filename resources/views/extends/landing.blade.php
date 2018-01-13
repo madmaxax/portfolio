@@ -2,14 +2,14 @@
 
 @section('title')
 
-	<title>Internetseiten erstellen | Maximilian Muza</title>
+	<title>{{ __('landing.title') }} | Maximilian Muza</title>
 
 @stop
 
 @section('metaTag')
 
-	<meta name="description" content="Alles über Websites und die Möglichkeit deinen Umsatz zu steigern. So begeisterst du deine Kunden..">
-    <meta name="keywords" content="Internetseiten, Website erstellen, Homepage erstellen, Umsatz, Besucher zu Kunden, Wie gewinne">
+	<meta name="description" content="{{  __('landing.metaDescription') }}">
+    <meta name="keywords" content="{{  __('landing.metaKeys') }}">
     <meta property="og:url" content="http://maximilianmuza.de" />
 	<meta property="og:type" content="homepage" />
 	<meta property="og:title" content="Maximilian Muza: Internetseiten Erstellung" />
@@ -29,28 +29,28 @@
 			<div class="introduction flex--new">
 				<div class="introduction__roundBox roundBox flex boxShadow">
 					<img class="introduction__icons" src="/img/aufmerksamkeit.png" alt="die Aufmerksamkeit maximieren">
-					<h3>Aufmerksamkeit</h3>
-					<p>Eine Website ermöglicht dir viele Leute auf dein Unternehmen aufmerksam zu machen -nicht nur die, die bereits interessiert sind.</p>
+					<h3>{{ __('landing.topCardOneHeadline') }}</h3>
+					<p>{{ __('landing.topCardOneText') }}</p>
 				</div>
 				<div class="introduction__roundBox roundBox flex boxShadow">
 					<img class="introduction__icons" src="/img/kunden.png" alt="mehr Kunden gewinnen">
-					<h3>Kunden</h3>
-					<p>Hast du Schwierigkeiten Neukunden zu gewinnen? Eine Website hilft dir Kunden zu gewinnen und Rückmeldungen einzuholen.</p>
+					<h3>{{ __('landing.topCardTwoHeadline') }}</h3>
+					<p>{{ __('landing.topCardTwoText') }}</p>
 				</div> 
 				<div class="introduction__roundBox roundBox flex boxShadow">
 					<img class="introduction__icons" src="/img/einnahmen.png" alt="Einnahmen erhöhen">
-					<h3>Umsatz</h3>
-					<p>Glaubst du, dass eine Website nur Öffnungzeiten und Kontaktdaten darstellen kann? Erfahre wie du sie noch viel besser nutzen kannst.</p>
+					<h3>{{ __('landing.topCardThreeHeadline') }}</h3>
+					<p>{{ __('landing.topCardThreeText') }}</p>
 				</div>
 			</div>
 			<div class="extraInformation">
 				<div class="width--40 textCenter">
-					<h2>.. Stelle dir vor du könntest von allem mehr erreichen.</h2>
+					<h2>{{ __('landing.topCardSummary') }}</h2>
 				</div>
 			</div>
 		</div>
 		<div class="standardCard leistungen">
-			<h2 class="textCenter mobilePadding mobilePadding">.. Lasse mir dir helfen es möglich zu machen!</h2>
+			<h2 class="textCenter mobilePadding mobilePadding">{{ __('landing.secondCardIntro') }}</h2>
 			<div class="row">
 				<div class="box--pic">
 					<img class="erfolg__img boxShadow" src="/img/schlange.jpg" alt="geschäft">
@@ -58,8 +58,8 @@
 				<div class="box">
 					<div class="paddingLeft">
 						<div class="box-aa content">
-							<h3 class="marginZero boldParagraph">Du führst ein regionales Unternehmen und hast Schwierigkeiten neue Kunden zu gewinnen?</h3>
-							<p>Wie wäre es mit einer Internetseite, die Besucher begeistert? Eine Internetseite auf der deine Besucher von deiner Arbeit und deinen Zielen lernen. Auf der sie wertvolle Tipps von dir erhalten.</p>
+							<h3 class="marginZero boldParagraph">{{ __('landing.secondCardFirstHeadline') }}</h3>
+							<p>{{ __('landing.secondCardFirstText') }}</p>
 						</div>
 					</div>
 				</div>
@@ -71,8 +71,8 @@
 				<div class="box">
 					<div class="paddingRight">
 						<div class="box-aa content">
-							<h3 class="marginZero boldParagraph">Setze dich von deiner Konkurrenz ab.</h3>
-							<p>Kunden wollen gehört werden. Auch nach ihrem Einkauf. Gib ihnen die Möglichkeit Rückmeldungen abzugeben oder einfach nur in Kontakt zu treten. Das kann dir zudem helfen dein Produkt bzw. deine Dienstleistung zu verbessern.</p>
+							<h3 class="marginZero boldParagraph">{{ __('landing.secondCardSecondHeadline') }}</h3>
+							<p>{{ __('landing.secondCardSecondText') }}</p>
 						</div>
 					</div>
 				</div>
@@ -87,25 +87,25 @@
 				<div class="box">
 					<div class="paddingLeft">
 						<div class="box-aa content">
-							<h3 class="marginZero boldParagraph">Lasse die Vergangenheit hinter dir.</h3>
-							<p>Warum ermöglichst du deinen Besuchern nicht mit nur einem Klick einen Termin zu vereinbaren oder einen Tisch zu reservieren? Meine Internetseiten haben das Ziel dein Produkt oder deine Dienstleistung für Besucher leicht erhältlich zu machen.</p>
+							<h3 class="marginZero boldParagraph">{{ __('landing.secondCardThirdHeadline') }}</h3>
+							<p>{{ __('landing.secondCardThirdText') }}</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
  		<div class="standardCard responsiveDesign textCenter">
-			<h2 class="width--50">Hast du schon hieran gedacht?</h2>
-			<h2 class="width--50 boldParagraph">Mehr Leute besuchen Internetseiten heutzutage vom Handy als vom Desktop.</h2>
+			<h2 class="width--50">{{ __('landing.thirdCardIntro1') }}</h2>
+			<h2 class="width--50 boldParagraph">{{ __('landing.thirdCardIntro2') }}</h2>
 			<img class="responsiveDesign__img responsiveDesign__marginTop" src="/img/responsiveness.jpg" alt="responsive Design">
 			<div class="responsiveDesign__container mobilePadding">
 				<div class="box--pic marginRight">
-					<h3 class="marginZero boldParagraph">Hole dir deinen Vorsprung.</h3>
+					<h3 class="marginZero boldParagraph">{{ __('landing.thirdCardHeadline') }}</h3>
 				</div>
 				<div class="box">
 					<div class="paddingLeft">
 						<div class="box-aa content">
-							<p>Egal ob Besucher meine Internetseiten vom Handy, Tablet oder Computer öffnen, ich werde sicher gehen, dass sie perfekt dargestellt ist. Mein Ziel ist es sie übersichtlich, schön auf allen Geräten zu machen. Nur so kann ich das beste Erlebnis garantieren.</p>
+							<p>{{ __('landing.thirdCardText') }}</p>
 						</div>
 					</div>
 				</div>
@@ -113,21 +113,21 @@
 		</div>
  		<div class="ad">
 		    <div class="ad__contentContainer">
-		        <h2>Nutze die großartigen Möglichkeiten, die eine Internetseite deinem Unternehmen bietet.</h2>
-		        <p class="displayNone width--50 center">Ich helfe dir gerne dabei, dein Unternehmen mithilfe einer Internetseite erfolgreich im Internet zu präsentieren.</p>
-		        <a href="/angebot-einholen/" class="standardButton">ANGEBOT ERFRAGEN</a>
+		        <h2>{{ __('landing.fourthCardHeadline') }}</h2>
+		        <p class="displayNone width--50 center">{{ __('landing.fourthCardText') }}</p>
+		        <a href="/angebot-einholen/" class="standardButton">{{ __('landing.fourthCardButton') }}</a>
 		    </div>
 		</div>
 		<div class="standardCard blog textCenter">
-			<h2>Mein Klassenraum</h2>
-			<h3 class="blog__description">Du bist dir noch unentschlossen, ob dir eine Website helfen kann? Kein Problem! Dann erfahre jetzt was für Möglichkeiten sie dir bereitstellt.</h3>
+			<h2>{{ __('blog.fifthCardHeadline') }}</h2>
+			<h3 class="blog__description">{{ __('blog.fifthCardText') }}</h3>
 			<div class="blog__card makeAuto boxShadow">
 				<a href="/klassenraum/online-präsenz/">	
 				    <img class="blog__picture" src="/img/ideen.jpeg" alt="erstelle erfolgreiche Online Präsenz">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">So erstellst du eine erfolgreiche Online Präsenz.</h3>
-				        <p class="fontSize--15 marginLeft--special">Zugeblich: Es braucht Ausdauer, sehr sehr viel Ausdauer. Doch das kann nicht das einzige sein ...</p>
-				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard1Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard1Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -135,9 +135,9 @@
 				<a href="/klassenraum/blog-für-dein-unternehmen/">	
 				    <img class="blog__picture" src="/img/blog.jpg" alt="8 Webdesign Fehler die du vermeiden solltest">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">3 Gründe einen Blog zu beginnen.</h3>
-				        <p class="fontSize--15 marginLeft--special">Lerne jetzt wie ein Blog dir helfen kann, deinen Umsatz zu erhöhen ...</p>
-				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard2Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard2Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -145,9 +145,9 @@
 				<a href="/klassenraum/konkurrenz/">	
 				    <img class="blog__picture" src="/img/konkurrenz.jpg" alt="von konkurrenz absetzen">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">3 Möglichkeiten dich von der Konkurrenz abzusetzen.</h3>
-				        <p class="fontSize--15 marginLeft--special">Bist du dir unsicher wie du dich am besten von der Konkurrenz abheben kannst? Wie wäre es ...</p>
-				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard3Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard3Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -155,9 +155,9 @@
 				<a href="/klassenraum/">	
 				    <img class="blog__picture" src="/img/kreativ.jpeg" alt="Internetseite falsch genutzt">
 				    <div class="blog__textContainer">
-				        <h3 class="fontSize--26 marginLeft--special">Darum du deine Internetseite falsch nutzt.</h3>
-				        <p class="fontSize--15 marginLeft--special">Du hast bereits eine Internetseite, jegliche Erfolge bleiben jedoch aus? Das kannst du dagegen tun ...</p>
-				        <button class="marginLeft--special">Erfahre mehr zum Thema</button>
+				        <h3 class="fontSize--26 marginLeft--special">{{ __('blog.fifthCard4Headline') }}</h3>
+				        <p class="fontSize--15 marginLeft--special">{{ __('blog.fifthCard4Text') }}</p>
+				        <button class="marginLeft--special">{{ __('blog.fifthCardButton') }}</button>
 				    </div>
 				</a>
 			</div>
@@ -169,8 +169,8 @@
 					<img class="dasBinIch__img" src="/img/portrait.jpg" alt="portait">
 				</div>		
 				<div class="box dasBinIch__boxChange paddingLeft">
-					<p>Mein Ziel ist es lokalen Unternehmen zu helfen, sich für die digitale Zukunft vorzubereiten.</p>
-					<a href="/kontakt/" class="standardButton flex">JETZT KONTAKTIEREN</a>
+					<p>{{ __('landing.sixthCardText') }}</p>
+					<a href="/kontakt/" class="standardButton flex">{{ __('landing.sixthCardButton') }}</a>
 				</div>
 			</div>
 		</div>
